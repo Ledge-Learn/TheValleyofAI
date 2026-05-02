@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Valley of AI — Bay Area Billboard Archive</title>
+  <meta name="description" content="A crowdsourced archive of AI company billboards colonizing Bay Area highways and streets. Spotted, photographed, rated, and archived for posterity.">
+  <meta property="og:title" content="The Valley of AI">
+  <meta property="og:description" content="A crowdsourced archive of AI company billboards colonizing Bay Area highways and streets.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600;1,700&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/cards.css">
+  <link rel="stylesheet" href="styles/map.css">
+  <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+
+  <!-- Reading progress bar -->
+  <div id="progress-bar"></div>
+
+  <!-- Navigation -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" aria-label="Valley of AI — home">
+        <img src="assets/images/logo/logo.png" alt="Valley of AI logo">
+        <span class="nav-logo-divider"></span>
+        <span class="nav-logo-text">The Valley of <em>AI</em></span>
+      </a>
+      <div class="nav-links">
+        <a href="#gallery">Gallery</a>
+        <a href="#map-section">Map</a>
+        <a href="#leaderboard">Leaderboard</a>
+        <a href="#about">About</a>
+      </div>
+      <a href="#submit" class="nav-cta">Spot One →</a>
+      <button class="nav-mobile-toggle" id="mobile-menu-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile-menu" id="mobile-menu">
+      <a href="#gallery" onclick="closeMobileMenu()">Gallery</a>
+      <a href="#map-section" onclick="closeMobileMenu()">Map</a>
+      <a href="#leaderboard" onclick="closeMobileMenu()">Leaderboard</a>
+      <a href="#about" onclick="closeMobileMenu()">About</a>
+      <a href="#submit" onclick="closeMobileMenu()">Spot One →</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-bg-svg" aria-hidden="true">
+      <svg viewBox="0 0 1400 500" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+        <rect x="440" y="100" width="14" height="340" stroke="#F04E23" stroke-width="1" opacity="0.14"/>
+        <rect x="940" y="100" width="14" height="340" stroke="#F04E23" stroke-width="1" opacity="0.14"/>
+        <path d="M 0 230 Q 447 80 700 180 Q 947 80 1400 230" stroke="#F04E23" stroke-width="1.5" opacity="0.13" fill="none"/>
+        <line x1="0" y1="320" x2="1400" y2="320" stroke="#F04E23" stroke-width="0.8" opacity="0.10"/>
+        <line x1="100" y1="255" x2="100" y2="320" stroke="#F04E23" stroke-width="0.5" opacity="0.10"/>
+        <line x1="180" y1="232" x2="180" y2="320" stroke="#F04E23" stroke-width="0.5" opacity="0.10"/>
+        <line x1="260" y1="214" x2="260" y2="320" stroke="#F04E23" stroke-width="0.5" opacity="0.10"/>
+        <line x1="340" y1="198" x2="340" y2="320" stroke="#F04E23" stroke-width="0.5" opacity="0.10"/>
+        <line x1="390" y1="182" x2="390" y2="320" stroke="#F04E23" stroke-width="0.5" opacity="0.10"/>
+        <line x1="510" y1="162" x2="510" y2="320" stroke="#F04E23" stroke-width="0.5" opacity="0.10"/>
+        <line x1="580" y1="158" x2="580" y2="320" stroke="#F04E23" stroke-width="0.5" opacity="0.10"/>
+        <line x1="650" y1="156" x2="650" y2="320" stroke="#F04E23" stroke-width="0.5" opacity="0.10"/>
+        <line x1="750" y1="156" x2="750" y2="320" stroke="#F04E23" stroke-width="0.5" opacity="0.10"/>
+        <line x1="820" y1="158" x2="820" y2="320" stroke="#F04E23" stroke-width="0.5" opacity="0.10"/>
+        <line x1="890" y1="162" x2="890" y2="320" stroke="#F04E23" stroke-width="0.5" opacity="0.10"/>
+        <line x1="1010" y1="182" x2="1010" y2="320" stroke="#F04E23" stroke-width="0.5" opacity="0.10"/>
+        <line x1="1060" y1="198" x2="1060" y2="320" stroke="#F04E23" stroke-width="0.5" opacity="0.10"/>
+        <line x1="1140" y1="214" x2="1140" y2="320" stroke="#F04E23" stroke-width="0.5" opacity="0.10"/>
+        <line x1="1220" y1="232" x2="1220" y2="320" stroke="#F04E23" stroke-width="0.5" opacity="0.10"/>
+        <line x1="1300" y1="255" x2="1300" y2="320" stroke="#F04E23" stroke-width="0.5" opacity="0.10"/>
+        <rect x="434" y="82" width="26" height="16" stroke="#F04E23" stroke-width="1" opacity="0.14" fill="none"/>
+        <rect x="934" y="82" width="26" height="16" stroke="#F04E23" stroke-width="1" opacity="0.14" fill="none"/>
+      </svg>
+    </div>
+    <div class="hero-content">
+
+      <!-- Left: headline + stats -->
+      <div class="hero-left">
+        <div class="hero-eyebrow animate-fade" style="--delay:0ms">
+          <span class="hero-eyebrow-line"></span>
+          <span class="mono-label">Bay Area · Live Archive · Est. 2024</span>
+        </div>
+        <h1 class="animate-fade" style="--delay:200ms">
+          Mapping the<br>Bay Area's <em>AI</em><br>Footprint
+        </h1>
+        <p class="hero-sub animate-fade" style="--delay:400ms">
+          A crowdsourced gallery of AI billboards across the Bay.
+        </p>
+        <div class="hero-stats animate-fade" style="--delay:600ms">
+          <div class="stat">
+            <span class="stat-number" id="stat-hero-archived" data-target="8">8</span>
+            <span class="stat-label">BILLBOARDS ARCHIVED</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number" id="stat-hero-companies" data-target="8">8</span>
+            <span class="stat-label">COMPANIES</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number" data-target="6.4" data-decimal="1">6.4</span>
+            <span class="stat-label">AVG BUZZWORD SCORE</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number" data-prefix="$" data-target="7" data-suffix="K/WK">$7K/WK</span>
+            <span class="stat-label">EST. BILLBOARD COST</span>
+          </div>
+          <div class="stat-divider"></div>
+          <!-- ~1,000+ Waymos active in SF Bay Area as of Feb 2026.
+               Source: TechCrunch & Axios, Feb 24 2026. Waymo has ~3,000
+               robotaxis nationwide; ~1/3 deployed in Bay Area. -->
+          <div class="stat">
+            <span class="stat-number">1,000+</span>
+            <span class="stat-label">WAYMOS ACTIVE</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Submission CTA -->
+      <div class="hero-submit-cta animate-fade" style="--delay:800ms">
+        <div class="hero-submit-icon" aria-hidden="true">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="6" y="4" width="20" height="14" rx="1" stroke="#F04E23" stroke-width="1.5" fill="none"/>
+            <line x1="16" y1="18" x2="16" y2="26" stroke="#F04E23" stroke-width="1.5"/>
+            <line x1="10" y1="26" x2="22" y2="26" stroke="#F04E23" stroke-width="1.5"/>
+            <line x1="11" y1="9" x2="16" y2="4" stroke="#F04E23" stroke-width="1.5"/>
+            <line x1="21" y1="9" x2="16" y2="4" stroke="#F04E23" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <h2 class="hero-submit-heading">Spotted one?</h2>
+        <p class="hero-submit-body">Help build the Bay's AI billboard archive. One photo, thirty seconds.</p>
+        <a href="#submit" class="hero-submit-btn">Submit a Spot →</a>
+        <p class="hero-submit-note">Free · No account needed</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Filter Bar -->
+  <div id="filter-bar">
+    <div class="filter-inner">
+      <span class="mono-label filter-label">FILTER</span>
+      <div class="filter-buttons" role="group" aria-label="Filter billboards">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="LLMs">LLMs</button>
+        <button class="filter-btn" data-filter="Infrastructure">Infrastructure</button>
+        <button class="filter-btn" data-filter="Agents">Agents</button>
+        <button class="filter-btn" data-filter="Finance">Finance</button>
+        <button class="filter-btn" data-filter="Dev Tools">Dev Tools</button>
+        <button class="filter-btn" data-filter="AI">AI</button>
+        <button class="filter-btn" data-filter="SF Streets">SF Streets</button>
+        <button class="filter-btn" data-filter="Hwy 101">Hwy 101</button>
+        <button class="filter-btn" data-filter="Hwy 280">Hwy 280</button>
+        <button class="filter-btn" data-filter="Oakland">Oakland</button>
+      </div>
+      <select id="company-filter" class="company-filter-select" aria-label="Filter by company">
+        <option value="all">All Companies</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <div class="section-header">
+      <span class="mono-label">INFESTATION GALLERY</span>
+      <h2>The <em>Archive</em></h2>
+    </div>
+    <div id="card-grid" class="card-grid"></div>
+    <p id="no-results" class="no-results" style="display:none">No billboards match that filter — yet.</p>
+  </section>
+
+  <!-- Map -->
+  <section id="map-section">
+    <div class="section-header">
+      <span class="mono-label">INFESTATION MAP</span>
+      <h2>Where They <em>Lurk</em></h2>
+    </div>
+    <div class="map-wrap">
+      <div id="map"></div>
+      <div class="map-sidebar">
+        <div class="sidebar-header">
+          <span class="mono-label">ALL SIGHTINGS</span>
+          <span class="mono-label sidebar-count" id="sidebar-count">8 locations</span>
+        </div>
+        <div id="sidebar-list" class="sidebar-list"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LIVE STATS SECTION ===== -->
+  <section id="stats-section">
+    <div class="stats-section-inner">
+
+      <!-- Live badge row -->
+      <div class="stats-live-badge">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span class="mono-label">Live community archive</span>
+        <span class="stats-badge-sep" aria-hidden="true">·</span>
+        <span class="mono-label stats-date" id="stats-date"></span>
+      </div>
+
+      <!-- Stat cards — JS populates sightings count and triggers count-up -->
+      <div class="stats-grid">
+
+        <!-- Bay Area AI company count — Bay Area Council 2025 estimate -->
+        <div class="stat-card scroll-reveal" style="--delay:0ms">
+          <span class="stat-card-number" data-target="1200" data-prefix="~">~1,200</span>
+          <span class="stat-card-label">AI Companies in Bay Area</span>
+          <span class="stat-card-source">Bay Area Council, 2025</span>
+        </div>
+
+        <!-- Active OOH billboard advertisers — OOH industry estimate -->
+        <div class="stat-card scroll-reveal" style="--delay:80ms">
+          <span class="stat-card-number" data-target="80" data-prefix="~">~80</span>
+          <span class="stat-card-label">Active Billboard Advertisers</span>
+          <span class="stat-card-source">Est. from OOH industry data</span>
+        </div>
+
+        <!-- Weekly spend — static, $1M+ can't count up meaningfully -->
+        <div class="stat-card scroll-reveal" style="--delay:160ms">
+          <span class="stat-card-number">$1M+</span>
+          <span class="stat-card-label">Est. Weekly Billboard Spend</span>
+          <span class="stat-card-source">Based on OAAA rates, 2025</span>
+        </div>
+
+        <!-- Community sightings — computed from BILLBOARDS array in getLiveStats() -->
+        <!-- Replace getLiveStats() with an API fetch when real submissions are wired up -->
+        <div class="stat-card scroll-reveal" style="--delay:240ms">
+          <span class="stat-card-number" id="stat-sightings-num" data-suffix="+">—</span>
+          <span class="stat-card-label">Community Sightings</span>
+          <span class="stat-card-source">From archive submissions</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Leaderboard -->
+  <section id="leaderboard">
+    <div class="section-header">
+      <span class="mono-label">HALL OF FAME / SHAME</span>
+      <h2>The <em>Leaderboard</em></h2>
+    </div>
+    <div class="leaderboard-grid">
+      <div class="leaderboard-panel">
+        <div class="panel-header">
+          <div class="meter-dot" style="background:var(--meter-neg)"></div>
+          <span class="mono-label">BUZZWORD DENSITY</span>
+        </div>
+        <p class="panel-title">Most <em>Meaningless</em></p>
+        <ol id="lb-buzzword" class="lb-list"></ol>
+      </div>
+      <div class="leaderboard-panel">
+        <div class="panel-header">
+          <div class="meter-dot" style="background:var(--meter-comedy)"></div>
+          <span class="mono-label">BOOMER CONFUSION</span>
+        </div>
+        <p class="panel-title">Most <em>Baffling</em></p>
+        <ol id="lb-boomer" class="lb-list"></ol>
+      </div>
+      <div class="leaderboard-panel">
+        <div class="panel-header">
+          <div class="meter-dot" style="background:var(--meter-pos)"></div>
+          <span class="mono-label">WOULD ACTUALLY TRY</span>
+        </div>
+        <p class="panel-title">Most <em>Convincing</em></p>
+        <ol id="lb-try" class="lb-list"></ol>
+      </div>
+      <div class="leaderboard-panel">
+        <div class="panel-header">
+          <div class="meter-dot" style="background:var(--meter-mem)"></div>
+          <span class="mono-label">MEMORABILITY</span>
+        </div>
+        <p class="panel-title">Most <em>Unforgettable</em></p>
+        <ol id="lb-memory" class="lb-list"></ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="about-inner">
+      <div class="about-left">
+        <span class="mono-label">EST. 2024 · ONGOING</span>
+        <h2>Why does this <em>exist?</em></h2>
+        <p>The Bay Area is in the middle of an unprecedented AI advertising boom. Billboard rental revenue in SF grew <strong>30% between 2023 and 2025</strong>. There are <strong>170 billboards along Highway 101</strong> alone. The SF Chronicle catalogued every billboard in the city and found <strong>50% advertise AI products</strong>.</p>
+        <p>Nobody has built the searchable, crowdsourced archive. That's the gap. This is the archive.</p>
+        <p>Think: museum gallery meets Reddit-bait meets Bay Area cultural commentary. Every billboard that comes down — and they cycle every 2–4 weeks — only exists here. In two years, this becomes a historical document of what 2025–2026 SF looked like.</p>
+        <div class="about-stats-row">
+          <div class="about-stat">
+            <span class="about-stat-num">170</span>
+            <span class="about-stat-label">BILLBOARDS ON HWY 101</span>
+          </div>
+          <div class="about-stat">
+            <span class="about-stat-num">50%</span>
+            <span class="about-stat-label">OF SF BILLBOARDS ARE AI ADS</span>
+          </div>
+          <div class="about-stat">
+            <span class="about-stat-num">30%</span>
+            <span class="about-stat-label">BILLBOARD REVENUE GROWTH</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-right">
+        <div class="context-card">
+          <span class="mono-label">THE MOMENT THAT STARTED IT ALL</span>
+          <p class="context-quote">"Stop Hirring Humans"</p>
+          <p class="context-body">Artisan AI's typo-laden billboard in 2024 generated tens of millions of impressions, thousands of death threats, and over $2M in new ARR for the company. The locals noticed.</p>
+        </div>
+        <div class="coverage-card">
+          <span class="mono-label">EXISTING COVERAGE — ALL FRAGMENTED</span>
+          <ul class="coverage-list">
+            <li><span class="coverage-name">Aaron Parecki</span><span class="coverage-type">Photo dumps · Blog</span></li>
+            <li><span class="coverage-name">Bill Dybas — Ads of SF</span><span class="coverage-type">Instagram · X</span></li>
+            <li><span class="coverage-name">Wendy Liu — Bay Area Current</span><span class="coverage-type">Editorial column</span></li>
+            <li><span class="coverage-name">SF Chronicle</span><span class="coverage-type">One-time investigation</span></li>
+            <li><span class="coverage-name">NPR / KQED</span><span class="coverage-type">Audio + reporting</span></li>
+          </ul>
+          <p class="coverage-gap"><em>The gap:</em> Nobody has built a structured, searchable, crowdsourced, mapped, rated, ongoing archive.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Submit -->
+  <section id="submit">
+    <div class="section-header">
+      <span class="mono-label">CONTRIBUTE TO THE ARCHIVE</span>
+      <h2>Spot <em>One?</em></h2>
+    </div>
+    <div class="form-outer">
+      <div class="form-intro">
+        <p>Saw an AI billboard that's not in the archive? Submit it. The curation team reviews all submissions within 48 hours.</p>
+        <div class="form-note">
+          <span class="mono-label">NOTE</span>
+          <p>Buzzword Density, Boomer Confusion, and other scores are set by the curation team — not user-submitted. You provide the raw intelligence. We rate it.</p>
+        </div>
+      </div>
+      <form id="submit-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f-company" class="mono-label">COMPANY NAME <span class="req">*</span></label>
+            <input type="text" id="f-company" name="company" placeholder="e.g. Anthropic" required>
+          </div>
+          <div class="form-group">
+            <label for="f-location" class="mono-label">LOCATION <span class="req">*</span></label>
+            <input type="text" id="f-location" name="location" placeholder="e.g. Hwy 101 N · Millbrae" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f-tagline" class="mono-label">TAGLINE / COPY <span class="req">*</span></label>
+            <input type="text" id="f-tagline" name="tagline" placeholder="Exact text from the billboard" required>
+          </div>
+          <div class="form-group">
+            <label for="f-category" class="mono-label">CATEGORY</label>
+            <select id="f-category" name="category">
+              <option value="">Select category</option>
+              <option>LLMs</option>
+              <option>Infrastructure</option>
+              <option>Agents</option>
+              <option>Dev Tools</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f-highway" class="mono-label">HIGHWAY / STREET</label>
+            <select id="f-highway" name="highway">
+              <option value="">Select route</option>
+              <option>Hwy 101</option>
+              <option>Hwy 280</option>
+              <option>I-880</option>
+              <option>Market St</option>
+              <option>Mission St</option>
+              <option>Harrison St</option>
+              <option>SoMa</option>
+              <option>Other SF Street</option>
+              <option>Oakland</option>
+              <option>Peninsula</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="mono-label">PHOTO</label>
+            <div class="file-input-wrap">
+              <input type="file" id="f-photo" name="photo" accept="image/*">
+              <label for="f-photo" class="file-label">
+                <span class="file-icon">📎</span>
+                <span id="file-label-text">Attach photo</span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group form-group-full">
+          <label for="f-notes" class="mono-label">NOTES (OPTIONAL)</label>
+          <textarea id="f-notes" name="notes" placeholder="Any context, color commentary, or nearby landmarks..."></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="submit-btn">Submit Sighting →</button>
+        </div>
+      </form>
+      <div id="form-success" class="form-success" style="display:none">
+        <div class="success-check">✓</div>
+        <h3>Sighting logged.</h3>
+        <p>The curation team will review your submission within 48 hours. If approved, it'll appear in the archive.</p>
+        <button onclick="resetForm()" class="submit-btn secondary">Submit Another</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-col footer-brand">
+        <div class="footer-logo">The Valley of <em>AI</em></div>
+        <p class="footer-tagline">A crowdsourced archive of the AI billboard era. Every one that comes down only exists here.</p>
+        <span class="mono-label">EST. 2024 · ONGOING</span>
+      </div>
+      <div class="footer-col footer-nav-col">
+        <span class="mono-label">NAVIGATE</span>
+        <nav class="footer-nav">
+          <a href="#gallery">Gallery</a>
+          <a href="#map-section">Map</a>
+          <a href="#leaderboard">Leaderboard</a>
+          <a href="#about">About</a>
+          <a href="#submit">Submit a Sighting</a>
+        </nav>
+      </div>
+      <div class="footer-col footer-quote-col">
+        <blockquote class="footer-quote">
+          <em>"In two years, this becomes a historical document of what 2025–2026 SF looked like."</em>
+        </blockquote>
+        <p class="footer-credits">Built with intent. Not AI-generated.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="mono-label">© 2025 THE VALLEY OF AI · ALL BILLBOARDS RESERVED</span>
+    </div>
+  </footer>
+
+  <!-- Modal Overlay -->
+  <div id="modal-overlay" class="modal-overlay" role="dialog" aria-modal="true" aria-label="Billboard detail">
+    <div class="modal" id="modal">
+      <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
+      <div class="modal-image-col">
+        <div id="modal-image" class="modal-image"></div>
+        <span id="modal-loc-badge" class="modal-loc-badge"></span>
+        <div id="modal-photo-credit" class="modal-photo-credit" style="display:none"></div>
+      </div>
+      <div class="modal-content-col">
+        <div class="modal-meta">
+          <span id="modal-category-tag" class="mono-label modal-cat-tag"></span>
+          <span id="modal-date-tag" class="mono-label modal-date-tag"></span>
+        </div>
+        <h2 id="modal-company"></h2>
+        <p id="modal-location-line" class="modal-location-line"></p>
+        <blockquote id="modal-tagline" class="modal-tagline"></blockquote>
+        <p id="modal-note" class="modal-editorial"></p>
+        <div class="modal-meters">
+          <div class="modal-meter-item">
+            <div class="modal-meter-head">
+              <span class="mono-label">BUZZWORD DENSITY</span>
+              <span id="mv-buzzword" class="modal-meter-val"></span>
+            </div>
+            <div class="modal-meter-track"><div id="mb-buzzword" class="modal-meter-fill" style="background:var(--meter-neg)"></div></div>
+          </div>
+          <div class="modal-meter-item">
+            <div class="modal-meter-head">
+              <span class="mono-label">BOOMER CONFUSION</span>
+              <span id="mv-boomer" class="modal-meter-val"></span>
+            </div>
+            <div class="modal-meter-track"><div id="mb-boomer" class="modal-meter-fill" style="background:var(--meter-comedy)"></div></div>
+          </div>
+          <div class="modal-meter-item">
+            <div class="modal-meter-head">
+              <span class="mono-label">WOULD ACTUALLY TRY</span>
+              <span id="mv-try" class="modal-meter-val"></span>
+            </div>
+            <div class="modal-meter-track"><div id="mb-try" class="modal-meter-fill" style="background:var(--meter-pos)"></div></div>
+          </div>
+          <div class="modal-meter-item">
+            <div class="modal-meter-head">
+              <span class="mono-label">MEMORABILITY</span>
+              <span id="mv-memory" class="modal-meter-val"></span>
+            </div>
+            <div class="modal-meter-track"><div id="mb-memory" class="modal-meter-fill" style="background:var(--meter-mem)"></div></div>
+          </div>
+        </div>
+        <div class="modal-footer-row">
+          <span id="modal-spots-text" class="modal-spots-text"></span>
+          <button id="modal-spot-btn" class="spot-btn-modal" onclick="spotFromModal()">▲ Spot This</button>
+        </div>
+        <p id="modal-spot-cap" class="modal-spot-cap" style="display:none">ONE SPOT PER VISITOR</p>
+        <div id="modal-other-section" class="modal-other-section" style="display:none">
+          <span class="mono-label modal-other-label">OTHER SIGHTINGS</span>
+          <div id="modal-other-scroll" class="modal-other-scroll"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="scripts/data.js"></script>
+  <script src="scripts/modal.js"></script>
+  <script src="scripts/filter.js"></script>
+  <script src="scripts/map.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>

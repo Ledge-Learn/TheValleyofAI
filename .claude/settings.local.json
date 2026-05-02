@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pkill -f \"python3 -m http.server\")",
+      "Bash(python3 -m http.server 3000)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/data/billboards.json)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/assets/images/logo/logo.png)",
+      "Bash(curl -s http://localhost:3000/data/billboards.json)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'{len\\(d\\)} entries'\\); [print\\(f'  {b[\\\\\"id\\\\\"]} | photo={b.get\\(\\\\\"photo\\\\\",\\\\\"—\\\\\"\\)}'\\) for b in d]\")",
+      "Bash(mkdir -p \"/Users/liamedge/The Valley of AI/assets/images/billboards/aaron-parecki-2025-08\")",
+      "Bash(curl -s -O https://aaronparecki.com/2025/08/06/14/image-__TRACKED_VAR__.jpg)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:3000/assets/images/billboards/aaron-parecki-2025-08/image-13.jpg\")"
+    ]
+  }
+}
