@@ -1,0 +1,12 @@
+{
+  "name": "the-valley-of-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "fix-rotation": "node scripts/fix-image-rotation.js"
+  },
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "sharp": "^0.33.0"
+  }
+}

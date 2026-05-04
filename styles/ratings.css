@@ -1,0 +1,341 @@
+/* ===== CARD RATING SECTION ===== */
+
+.card-rating-section {
+  padding: 11px 20px 14px;
+  border-top: 1px solid rgba(31, 41, 55, 0.7);
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  pointer-events: auto;
+}
+
+.cr-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cr-header-label {
+  font-family: var(--font-mono);
+  font-size: 6.5px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(138, 150, 176, 0.45);
+}
+
+.cr-header-count {
+  font-family: var(--font-mono);
+  font-size: 6.5px;
+  letter-spacing: 0.06em;
+  color: rgba(138, 150, 176, 0.35);
+}
+
+.cr-row {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.cr-row-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.cr-label {
+  font-family: var(--font-mono);
+  font-size: 7px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.cr-stat {
+  font-family: var(--font-mono);
+  font-size: 7px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  opacity: 0.85;
+}
+
+/* ── Viewer 1–5 buttons ── */
+
+.cr-viewer-btns {
+  display: flex;
+  gap: 3px;
+}
+
+.cr-v-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 5px 2px 6px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(42, 51, 82, 0.9);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.cr-v-btn:hover:not(.cr-voted) {
+  border-color: rgba(240, 78, 35, 0.45);
+  background: rgba(240, 78, 35, 0.06);
+}
+
+.cr-v-btn.cr-selected {
+  border-color: var(--accent);
+  background: rgba(240, 78, 35, 0.1);
+}
+
+.cr-v-btn.cr-voted {
+  cursor: default;
+}
+
+.cr-v-num {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1;
+}
+
+.cr-v-btn.cr-selected .cr-v-num {
+  color: var(--accent);
+}
+
+.cr-v-label {
+  font-family: var(--font-mono);
+  font-size: 5.5px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(138, 150, 176, 0.5);
+  line-height: 1;
+}
+
+.cr-v-btn.cr-selected .cr-v-label {
+  color: rgba(240, 78, 35, 0.7);
+}
+
+/* ── Segmented buttons (buzzword / confusion) ── */
+
+.cr-seg-btns {
+  display: flex;
+  gap: 2px;
+}
+
+.cr-seg-btn {
+  flex: 1;
+  padding: 5px 2px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(42, 51, 82, 0.9);
+  font-family: var(--font-mono);
+  font-size: 6px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(138, 150, 176, 0.55);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.cr-seg-btn:hover:not(.cr-voted) {
+  border-color: rgba(240, 78, 35, 0.45);
+  color: var(--text);
+  background: rgba(240, 78, 35, 0.05);
+}
+
+.cr-seg-btn.cr-selected {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(240, 78, 35, 0.08);
+}
+
+.cr-seg-btn.cr-voted {
+  cursor: default;
+}
+
+/* ===== MODAL RATINGS SECTION ===== */
+
+#modal-ratings {
+  padding: 18px 0 4px;
+  border-top: 1px solid rgba(31, 41, 55, 0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mr-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mr-total {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  color: rgba(138, 150, 176, 0.45);
+}
+
+.mr-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mr-group-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.mr-group-label {
+  font-family: var(--font-mono);
+  font-size: 8.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.mr-group-stat {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  letter-spacing: 0.04em;
+  color: rgba(138, 150, 176, 0.55);
+  text-align: right;
+}
+
+/* Modal viewer 1–5 buttons */
+
+.mr-viewer-btns {
+  display: flex;
+  gap: 5px;
+}
+
+.mr-v-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 4px 9px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(42, 51, 82, 0.9);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.mr-v-btn:hover:not(.cr-voted) {
+  border-color: rgba(240, 78, 35, 0.45);
+  background: rgba(240, 78, 35, 0.06);
+}
+
+.mr-v-btn.cr-selected {
+  border-color: var(--accent);
+  background: rgba(240, 78, 35, 0.1);
+}
+
+.mr-v-btn.cr-voted {
+  cursor: default;
+}
+
+.mr-v-num {
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1;
+}
+
+.mr-v-btn.cr-selected .mr-v-num {
+  color: var(--accent);
+}
+
+.mr-v-label {
+  font-family: var(--font-mono);
+  font-size: 7px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(138, 150, 176, 0.55);
+  text-align: center;
+  line-height: 1.25;
+  word-break: break-word;
+}
+
+.mr-v-btn.cr-selected .mr-v-label {
+  color: rgba(240, 78, 35, 0.75);
+}
+
+/* Modal segment buttons (buzz + confusion) */
+
+.mr-seg-btns {
+  display: flex;
+  gap: 5px;
+}
+
+.mr-seg-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 5px 7px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(42, 51, 82, 0.9);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+  text-align: center;
+}
+
+.mr-seg-btn:hover:not(.cr-voted) {
+  border-color: rgba(240, 78, 35, 0.45);
+  background: rgba(240, 78, 35, 0.05);
+}
+
+.mr-seg-btn.cr-selected {
+  border-color: var(--accent);
+  background: rgba(240, 78, 35, 0.08);
+}
+
+.mr-seg-btn.cr-voted {
+  cursor: default;
+}
+
+.mr-seg-label {
+  font-family: var(--font-mono);
+  font-size: 7.5px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(138, 150, 176, 0.6);
+  line-height: 1.3;
+  word-break: break-word;
+}
+
+.mr-seg-btn.cr-selected .mr-seg-label {
+  color: var(--accent);
+}
+
+.mr-seg-pct {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1;
+}
+
+.mr-seg-btn.cr-selected .mr-seg-pct {
+  color: var(--accent);
+}
+
+/* 4-option confusion row on mobile: 2×2 grid */
+@media (max-width: 640px) {
+  .mr-conf-btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

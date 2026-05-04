@@ -10,16 +10,16 @@ dataReady.then(function initMap() {
     zoomControl: true,
   });
 
-  // Stadia Alidade Smooth Dark — CartoDB raster tiles now return 404 (deprecated)
-  L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    maxZoom: 20
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: 'abcd',
+    maxZoom: 20,
   }).addTo(map);
 
   map.scrollWheelZoom.disable();
 
-  // Force Leaflet to recalculate size after layout is fully settled
-  setTimeout(() => map.invalidateSize(), 100);
+  setTimeout(() => map.invalidateSize(), 300);
+  window.addEventListener('resize', () => map.invalidateSize());
 
   // Custom SVG pin factory
   function makePin(color) {

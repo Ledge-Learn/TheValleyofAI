@@ -109,6 +109,7 @@ function buildCard(b) {
         ${meterCell('MEMORY', b.memory, 'var(--meter-mem)')}
       </div>
     </div>
+    ${ratingsSectionHtml(b)}
     <div class="card-footer">
       <span class="card-spots-text" id="spots-text-${b.id}">${spotCount} spots</span>
       <button class="spot-btn${alreadySpotted ? ' spotted user-spotted' : ''}" id="spot-btn-${b.id}" onclick="handleSpot(event, '${b.id}')" aria-label="Spot this billboard"${alreadySpotted ? ' title="You\'ve already spotted this billboard"' : ''}>
@@ -119,6 +120,7 @@ function buildCard(b) {
 
   card.addEventListener('click', (e) => {
     if (e.target.closest('.spot-btn')) return;
+    if (e.target.closest('.card-rating-section')) return;
     openModal(b.id);
   });
 
@@ -247,12 +249,17 @@ function renderLB(listId, metric, color) {
 }
 
 // ===== FORM =====
-document.getElementById('submit-form').addEventListener('submit', function (e) {
+document.getElementById('submit-form').addEventListener('submit', async function (e) {
   e.preventDefault();
+
   const company = document.getElementById('f-company');
   const location = document.getElementById('f-location');
   const tagline = document.getElementById('f-tagline');
+  const photo = document.getElementById('f-photo');
+  const errorEl = document.getElementById('form-error');
+  const btn = this.querySelector('.submit-btn');
 
+  // Client-side validation
   let valid = true;
   [company, location, tagline].forEach(field => {
     if (!field.value.trim()) {
@@ -262,18 +269,43 @@ document.getElementById('submit-form').addEventListener('submit', function (e) {
       field.classList.remove('error');
     }
   });
-
+  if (!photo.files[0]) {
+    photo.closest('.file-input-wrap').style.outline = '1px solid var(--meter-neg)';
+    valid = false;
+  } else {
+    photo.closest('.file-input-wrap').style.outline = '';
+  }
   if (!valid) return;
 
-  // Simulate submission (replace with Airtable API/fetch in production)
-  const btn = this.querySelector('.submit-btn');
+  errorEl.style.display = 'none';
   btn.textContent = 'Submitting...';
   btn.disabled = true;
 
-  setTimeout(() => {
-    this.style.display = 'none';
-    document.getElementById('form-success').style.display = 'flex';
-  }, 800);
+  try {
+    const res = await fetch('/.netlify/functions/submit', {
+      method: 'POST',
+      body: new FormData(this),
+    });
+    const data = await res.json();
+
+    if (data.success) {
+      this.reset();
+      document.getElementById('file-label-text').textContent = 'Attach photo';
+      this.style.display = 'none';
+      document.getElementById('form-success').style.display = 'flex';
+      setTimeout(() => { btn.disabled = false; }, 3000);
+    } else {
+      errorEl.textContent = data.error || 'Something went wrong — please try again.';
+      errorEl.style.display = 'block';
+      btn.textContent = 'Submit Sighting →';
+      btn.disabled = false;
+    }
+  } catch {
+    errorEl.textContent = 'Network error — check your connection and try again.';
+    errorEl.style.display = 'block';
+    btn.textContent = 'Submit Sighting →';
+    btn.disabled = false;
+  }
 });
 
 function resetForm() {

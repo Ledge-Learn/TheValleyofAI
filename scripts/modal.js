@@ -44,6 +44,9 @@ function openModal(id) {
   setMeter('try', 0, b.watry, 'var(--meter-pos)');
   setMeter('memory', 0, b.memory, 'var(--meter-mem)');
 
+  // Reader ratings
+  renderModalRatings(b);
+
   // Spots
   updateModalSpots(id);
 
