@@ -267,18 +267,11 @@ input, select, textarea { font: inherit; }
   inset: 0;
   pointer-events: none;
   z-index: 1;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  overflow: hidden;
-}
-.hero-bg-img {
-  width: 88%;
-  height: 88%;
-  object-fit: contain;
-  object-position: center bottom;
+  background-image: url('../assets/images/logo/behindhero.svg');
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: center bottom;
   opacity: 0.26;
-  mix-blend-mode: screen;
 }
 
 .hero-content {
