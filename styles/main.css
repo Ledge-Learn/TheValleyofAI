@@ -377,6 +377,15 @@ input, select, textarea { font: inherit; }
   align-self: flex-start;
 }
 
+.stat-source {
+  font-family: var(--font-mono);
+  font-size: 7px;
+  letter-spacing: 0.06em;
+  color: rgba(138, 150, 176, 0.45);
+  align-self: flex-start;
+  margin-top: -3px;
+}
+
 .stat-divider {
   width: 1px;
   height: 48px;
