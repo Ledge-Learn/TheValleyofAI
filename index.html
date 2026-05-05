@@ -36,7 +36,6 @@
       <div class="nav-links">
         <a href="#gallery">Gallery</a>
         <a href="#map-section">Map</a>
-        <a href="#leaderboard">Leaderboard</a>
         <a href="#about">About</a>
       </div>
       <a href="#submit" class="nav-cta">Spot One →</a>
@@ -47,7 +46,6 @@
     <div class="nav-mobile-menu" id="mobile-menu">
       <a href="#gallery" onclick="closeMobileMenu()">Gallery</a>
       <a href="#map-section" onclick="closeMobileMenu()">Map</a>
-      <a href="#leaderboard" onclick="closeMobileMenu()">Leaderboard</a>
       <a href="#about" onclick="closeMobileMenu()">About</a>
       <a href="#submit" onclick="closeMobileMenu()">Spot One →</a>
     </div>
@@ -56,70 +54,7 @@
   <!-- Hero -->
   <section id="hero">
     <div class="hero-bg-svg" aria-hidden="true">
-      <svg viewBox="0 0 1400 600" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
-
-        <!-- DECK LINE -->
-        <line x1="0" y1="470" x2="1400" y2="470" stroke="#F04E23" stroke-width="1" opacity="0.12"/>
-
-        <!-- RIGHT TOWER — tall, near, sits behind/beside the submit card (~x 955) -->
-        <!-- Column legs -->
-        <rect x="933" y="0" width="11" height="470" fill="#F04E23" opacity="0.13"/>
-        <rect x="963" y="0" width="11" height="470" fill="#F04E23" opacity="0.13"/>
-        <!-- Portal crossbeams -->
-        <line x1="927" y1="6"   x2="981" y2="6"   stroke="#F04E23" stroke-width="2.5" opacity="0.16"/>
-        <line x1="927" y1="72"  x2="981" y2="72"  stroke="#F04E23" stroke-width="1.5" opacity="0.13"/>
-        <line x1="927" y1="185" x2="981" y2="185" stroke="#F04E23" stroke-width="1.5" opacity="0.13"/>
-        <line x1="927" y1="320" x2="981" y2="320" stroke="#F04E23" stroke-width="1.5" opacity="0.13"/>
-        <line x1="927" y1="420" x2="981" y2="420" stroke="#F04E23" stroke-width="1.5" opacity="0.13"/>
-
-        <!-- LEFT TOWER — shorter, far, sits behind the headline (~x 316) -->
-        <!-- Column legs (slightly narrower for perspective) -->
-        <rect x="303" y="110" width="9" height="360" fill="#F04E23" opacity="0.10"/>
-        <rect x="327" y="110" width="9" height="360" fill="#F04E23" opacity="0.10"/>
-        <!-- Portal crossbeams -->
-        <line x1="297" y1="116" x2="342" y2="116" stroke="#F04E23" stroke-width="2"   opacity="0.12"/>
-        <line x1="297" y1="184" x2="342" y2="184" stroke="#F04E23" stroke-width="1.2" opacity="0.10"/>
-        <line x1="297" y1="286" x2="342" y2="286" stroke="#F04E23" stroke-width="1.2" opacity="0.10"/>
-        <line x1="297" y1="390" x2="342" y2="390" stroke="#F04E23" stroke-width="1.2" opacity="0.10"/>
-
-        <!-- MAIN CABLE -->
-        <!-- Left back-span: anchorage → left tower top -->
-        <line x1="-40" y1="455" x2="316" y2="112" stroke="#F04E23" stroke-width="1.3" opacity="0.13"/>
-        <!-- Main span: left tower → dramatic catenary sag → right tower -->
-        <path d="M 316 112 C 435 375 758 370 953 7" stroke="#F04E23" stroke-width="1.3" fill="none" opacity="0.13"/>
-        <!-- Right back-span: right tower top → anchorage -->
-        <line x1="953" y1="7" x2="1450" y2="285" stroke="#F04E23" stroke-width="1.3" opacity="0.10"/>
-
-        <!-- SUSPENDERS — vertical hangers from cable to deck -->
-        <!-- Left back-span hangers -->
-        <g stroke="#F04E23" stroke-width="0.6" opacity="0.07">
-          <line x1="80"  y1="363" x2="80"  y2="470"/>
-          <line x1="165" y1="274" x2="165" y2="470"/>
-          <line x1="252" y1="178" x2="252" y2="470"/>
-        </g>
-        <!-- Main span hangers (positions from bezier curve) -->
-        <g stroke="#F04E23" stroke-width="0.6" opacity="0.08">
-          <line x1="358" y1="183" x2="358" y2="470"/>
-          <line x1="409" y1="237" x2="409" y2="470"/>
-          <line x1="469" y1="274" x2="469" y2="470"/>
-          <line x1="536" y1="293" x2="536" y2="470"/>
-          <line x1="606" y1="294" x2="606" y2="470"/>
-          <line x1="679" y1="277" x2="679" y2="470"/>
-          <line x1="752" y1="240" x2="752" y2="470"/>
-          <line x1="823" y1="183" x2="823" y2="470"/>
-          <line x1="892" y1="105" x2="892" y2="470"/>
-        </g>
-        <!-- Right back-span hangers -->
-        <g stroke="#F04E23" stroke-width="0.6" opacity="0.06">
-          <line x1="1003" y1="30"  x2="1003" y2="470"/>
-          <line x1="1063" y1="67"  x2="1063" y2="470"/>
-          <line x1="1135" y1="112" x2="1135" y2="470"/>
-          <line x1="1205" y1="156" x2="1205" y2="470"/>
-          <line x1="1275" y1="200" x2="1275" y2="470"/>
-          <line x1="1355" y1="248" x2="1355" y2="470"/>
-        </g>
-
-      </svg>
+      <img src="assets/images/logo/behindhero.svg" alt="" class="hero-bg-img">
     </div>
     <div class="hero-content">
 
@@ -135,34 +70,22 @@
         <p class="hero-sub animate-fade" style="--delay:400ms">
           We started keeping track.
         </p>
-        <div class="animate-fade" style="--delay:500ms;display:flex;gap:24px;align-items:center;flex-wrap:wrap;margin-top:8px;">
-          <a href="#gallery" style="font-family:var(--font-mono);font-size:12px;letter-spacing:0.1em;text-transform:uppercase;background:var(--accent);color:#fff;padding:12px 24px;border-radius:4px;text-decoration:none;display:inline-block;">BROWSE THE ARCHIVE</a>
-          <a href="#submit" style="font-family:var(--font-mono);font-size:12px;letter-spacing:0.1em;text-transform:uppercase;background:transparent;color:var(--accent);border:1px solid var(--accent);padding:12px 24px;border-radius:4px;text-decoration:none;display:inline-block;">SUBMIT A SPOT</a>
+        <div class="hero-actions animate-fade" style="--delay:500ms">
+          <a href="#gallery" class="hero-btn-primary">BROWSE THE ARCHIVE</a>
+          <div class="hero-actions-row2">
+            <a href="#map-section" class="hero-btn-secondary">VIEW THE MAP</a>
+            <a href="#submit" class="hero-btn-tertiary">SUBMIT A BILLBOARD <span class="hero-btn-arrow">→</span></a>
+          </div>
         </div>
         <div class="hero-stats animate-fade" style="--delay:600ms">
           <div class="stat">
-            <span class="stat-number" id="stat-hero-archived" data-target="8">8</span>
+            <span class="stat-number" id="stat-hero-archived" data-target="0">—</span>
             <span class="stat-label">BILLBOARDS ARCHIVED</span>
           </div>
-          <div class="stat-divider"></div>
           <div class="stat">
-            <span class="stat-number" id="stat-hero-companies" data-target="8">8</span>
-            <span class="stat-label">COMPANIES</span>
+            <span class="stat-number">10,000+</span>
+            <span class="stat-label">AI STARTUPS IN SILICON VALLEY</span>
           </div>
-          <div class="stat-divider"></div>
-          <div class="stat">
-            <span class="stat-number" data-target="6.4" data-decimal="1">6.4</span>
-            <span class="stat-label">AVG BUZZWORD SCORE</span>
-          </div>
-          <div class="stat-divider"></div>
-          <div class="stat">
-            <span class="stat-number" data-prefix="$" data-target="7" data-suffix="K/WK">$7K/WK</span>
-            <span class="stat-label">EST. BILLBOARD COST</span>
-          </div>
-          <div class="stat-divider"></div>
-          <!-- ~1,000+ Waymos active in SF Bay Area as of Feb 2026.
-               Source: TechCrunch & Axios, Feb 24 2026. Waymo has ~3,000
-               robotaxis nationwide; ~1/3 deployed in Bay Area. -->
           <div class="stat">
             <span class="stat-number">1,000+</span>
             <span class="stat-label">WAYMOS ACTIVE</span>
@@ -270,44 +193,27 @@
     </div>
   </section>
 
-  <!-- Leaderboard -->
-  <section id="leaderboard">
-    <div class="section-header">
-      <span class="mono-label">HALL OF FAME / SHAME</span>
-      <h2>The <em>Leaderboard</em></h2>
-    </div>
-    <div class="leaderboard-grid">
-      <div class="leaderboard-panel">
-        <div class="panel-header">
-          <div class="meter-dot" style="background:var(--meter-neg)"></div>
-          <span class="mono-label">BUZZWORD DENSITY</span>
-        </div>
-        <p class="panel-title">Most <em>Meaningless</em></p>
-        <ol id="lb-buzzword" class="lb-list"></ol>
+  <!-- Billboard of the Week -->
+  <section id="billboard-of-the-week">
+    <div class="botw-inner">
+      <div class="botw-header">
+        <span class="mono-label">PICK OF THE WEEK</span>
+        <h2>Billboard of the <em>Week</em></h2>
+        <p class="botw-subtitle">One AI ad from around the Bay, broken down.</p>
       </div>
-      <div class="leaderboard-panel">
-        <div class="panel-header">
-          <div class="meter-dot" style="background:var(--meter-comedy)"></div>
-          <span class="mono-label">BOOMER CONFUSION</span>
+      <div class="botw-layout">
+        <div class="botw-image-col">
+          <img src="assets/images/billboards/IMG_8725.jpeg" alt="Artisan billboard at SF Bus Stop" class="botw-image">
         </div>
-        <p class="panel-title">Most <em>Baffling</em></p>
-        <ol id="lb-boomer" class="lb-list"></ol>
-      </div>
-      <div class="leaderboard-panel">
-        <div class="panel-header">
-          <div class="meter-dot" style="background:var(--meter-pos)"></div>
-          <span class="mono-label">WOULD ACTUALLY TRY</span>
+        <div class="botw-text-col">
+          <div class="botw-meta">
+            <span class="mono-label">ARTISAN</span>
+            <span class="botw-meta-sep">·</span>
+            <span class="botw-location">SF Bus Stop</span>
+          </div>
+          <div class="botw-tag">Most Insider-Focused</div>
+          <p class="botw-description">Heavy on jargon, light on clarity. "B2B lead generation" and "AI BDR" mean something, but not to most people passing by. Feels more like it's written for insiders than the public.</p>
         </div>
-        <p class="panel-title">Most <em>Convincing</em></p>
-        <ol id="lb-try" class="lb-list"></ol>
-      </div>
-      <div class="leaderboard-panel">
-        <div class="panel-header">
-          <div class="meter-dot" style="background:var(--meter-mem)"></div>
-          <span class="mono-label">MEMORABILITY</span>
-        </div>
-        <p class="panel-title">Most <em>Unforgettable</em></p>
-        <ol id="lb-memory" class="lb-list"></ol>
       </div>
     </div>
   </section>
@@ -459,7 +365,7 @@
         <nav class="footer-nav">
           <a href="#gallery">Gallery</a>
           <a href="#map-section">Map</a>
-          <a href="#leaderboard">Leaderboard</a>
+          <a href="#billboard-of-the-week">Pick of the Week</a>
           <a href="#about">About</a>
           <a href="#submit">Submit a Sighting</a>
         </nav>

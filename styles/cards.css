@@ -163,24 +163,24 @@
   font-size: 19px;
   font-weight: 600;
   line-height: 1.15;
-  color: var(--text);
+  color: #ffffff;
 }
 
 .card-date {
   font-family: var(--font-mono);
   font-size: 7px;
   letter-spacing: 0.1em;
-  color: rgba(138, 150, 176, 0.6);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .card-tagline {
   font-family: var(--font-sans);
-  font-size: 11px;
+  font-size: 1.05rem;
   font-style: italic;
-  color: rgba(229, 231, 235, 0.78);
-  border-left: 1px solid rgba(240, 78, 35, 0.25);
+  color: #ffffff;
+  border-left: 1px solid rgba(240, 78, 35, 0.4);
   padding-left: 8px;
-  line-height: 1.35;
+  line-height: 1.5;
 }
 
 /* Card footer — spot count + view cue */
@@ -198,19 +198,24 @@
   font-size: 8px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: rgba(138, 150, 176, 0.55);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .card-view-cue {
   font-family: var(--font-mono);
   font-size: 8px;
   letter-spacing: 0.08em;
-  color: rgba(138, 150, 176, 0.3);
+  color: rgba(255, 255, 255, 0.9);
   transition: color 0.18s;
 }
 
 .bill-card:hover .card-view-cue {
-  color: rgba(138, 150, 176, 0.65);
+  color: #ffffff;
+}
+
+/* Per-card image position overrides */
+.bill-card[data-id="c3ai-101-peninsula-2026-05"] .card-photo-img {
+  object-position: top center;
 }
 
 /* ===== MODAL ===== */

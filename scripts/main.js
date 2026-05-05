@@ -162,57 +162,6 @@ function syncCardSpotCount(id, count) {
   if (el) el.textContent = count + ' spot' + (count !== 1 ? 's' : '');
 }
 
-// ===== LEADERBOARD =====
-function renderLeaderboard() {
-  renderLB('lb-buzzword', 'buzzword', 'var(--meter-neg)');
-  renderLB('lb-boomer', 'boomer', 'var(--meter-comedy)');
-  renderLB('lb-try', 'watry', 'var(--meter-pos)');
-  renderLB('lb-memory', 'memory', 'var(--meter-mem)');
-}
-
-function renderLB(listId, metric, color) {
-  // Average each metric per company, then rank
-  const byCompany = {};
-  BILLBOARDS.forEach(b => {
-    if (!byCompany[b.company]) {
-      byCompany[b.company] = { company: b.company, scores: [], ids: [] };
-    }
-    byCompany[b.company].scores.push(b[metric]);
-    byCompany[b.company].ids.push(b.id);
-  });
-
-  const ranked = Object.values(byCompany)
-    .map(c => ({
-      company: c.company,
-      avg: c.scores.reduce((s, v) => s + v, 0) / c.scores.length,
-      count: c.scores.length,
-      firstId: c.ids.sort((a, b) =>
-        (getBillboard(b) || {spotted_date:''}).spotted_date >
-        (getBillboard(a) || {spotted_date:''}).spotted_date ? 1 : -1
-      )[0]
-    }))
-    .sort((a, b) => b.avg - a.avg)
-    .slice(0, 3);
-
-  const list = document.getElementById(listId);
-  list.innerHTML = '';
-
-  ranked.forEach((c, i) => {
-    const li = document.createElement('li');
-    li.className = 'lb-item';
-    const sublabel = c.count > 1 ? `${c.count} billboards · avg` : (getBillboard(c.firstId) || {location: ''}).location;
-    li.innerHTML = `
-      <span class="lb-rank">${i + 1}</span>
-      <div class="lb-info">
-        <div class="lb-company">${c.company}</div>
-        <div class="lb-location">${sublabel}</div>
-      </div>
-      <span class="lb-score" style="color:${color}">${c.avg.toFixed(1)}</span>
-    `;
-    li.addEventListener('click', () => openModal(c.firstId));
-    list.appendChild(li);
-  });
-}
 
 // ===== FORM =====
 document.getElementById('submit-form').addEventListener('submit', async function (e) {
@@ -346,6 +295,12 @@ function initLiveStats() {
 // ===== INIT =====
 dataReady.then(() => {
   renderGallery('all', 'all');
-  renderLeaderboard();
   initLiveStats();
+
+  // Hero stat — live count from loaded data
+  const archivedEl = document.getElementById('stat-hero-archived');
+  if (archivedEl) {
+    archivedEl.dataset.target = BILLBOARDS.length;
+    animateCountUp(archivedEl);
+  }
 });
