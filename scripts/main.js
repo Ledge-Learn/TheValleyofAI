@@ -99,48 +99,23 @@ function buildCard(b) {
       <span class="card-loc-badge">${b.location}</span>
     </div>
     <div class="card-body">
-      <div class="card-company">${b.company}</div>
-      <div class="card-meta">${b.location} · ${b.date}</div>
-      <div class="card-tagline">"${b.tagline}"</div>
-      <div class="card-meters">
-        ${meterCell('BUZZWORD', b.buzzword, 'var(--meter-neg)', true)}
-        ${meterCell('BOOMER', b.boomer, 'var(--meter-comedy)')}
-        ${meterCell('TRY', b.watry, 'var(--meter-pos)')}
-        ${meterCell('MEMORY', b.memory, 'var(--meter-mem)')}
+      <div class="card-head">
+        <div class="card-company">${b.company}</div>
+        <div class="card-date">${b.date.toUpperCase()}</div>
       </div>
+      <div class="card-tagline">"${b.tagline}"</div>
     </div>
-    ${ratingsSectionHtml(b)}
     <div class="card-footer">
-      <span class="card-spots-text" id="spots-text-${b.id}">${spotCount} spots</span>
-      <button class="spot-btn${alreadySpotted ? ' spotted user-spotted' : ''}" id="spot-btn-${b.id}" onclick="handleSpot(event, '${b.id}')" aria-label="Spot this billboard"${alreadySpotted ? ' title="You\'ve already spotted this billboard"' : ''}>
-        ${alreadySpotted ? '✓ Spotted' : '▲ Spot'}
-      </button>
+      <span class="card-spot-count" id="card-spot-count-${b.id}">${spotCount} spot${spotCount !== 1 ? 's' : ''}</span>
+      <span class="card-view-cue">View details →</span>
     </div>
   `;
 
-  card.addEventListener('click', (e) => {
-    if (e.target.closest('.spot-btn')) return;
-    if (e.target.closest('.card-rating-section')) return;
-    openModal(b.id);
-  });
+  card.addEventListener('click', () => openModal(b.id));
 
   return card;
 }
 
-function meterCell(label, score, color, isBuzz = false) {
-  const pct = (score / 10) * 100;
-  const fillClass = isBuzz ? 'meter-bar-fill buzz-gradient' : 'meter-bar-fill';
-  const fillStyle = isBuzz ? `width:${pct}%` : `width:${pct}%; background:${color}`;
-  return `<div class="meter-cell">
-    <div class="meter-cell-label">${label}</div>
-    <div class="meter-bar-wrap">
-      <div class="meter-bar-track">
-        <div class="${fillClass}" style="${fillStyle}"></div>
-      </div>
-      <span class="meter-bar-score">${score.toFixed(1)}</span>
-    </div>
-  </div>`;
-}
 
 function renderGallery(tagFilter, companyFilter) {
   const grid = document.getElementById('card-grid');
@@ -182,18 +157,9 @@ function renderGallery(tagFilter, companyFilter) {
   newCards.forEach(el => obs.observe(el));
 }
 
-function handleSpot(e, id) {
-  e.stopPropagation();
-  if (hasSpotted(id)) return;
-  const newCount = addSpot(id);
-  const btn = document.getElementById('spot-btn-' + id);
-  const text = document.getElementById('spots-text-' + id);
-  if (btn) {
-    btn.textContent = '✓ Spotted';
-    btn.classList.add('spotted', 'user-spotted');
-    btn.title = "You've already spotted this billboard";
-  }
-  if (text) { text.textContent = newCount + ' spots'; }
+function syncCardSpotCount(id, count) {
+  const el = document.getElementById('card-spot-count-' + id);
+  if (el) el.textContent = count + ' spot' + (count !== 1 ? 's' : '');
 }
 
 // ===== LEADERBOARD =====

@@ -51,3 +51,12 @@ function addSpot(id) {
   markSpotted(id);
   return current + 1;
 }
+
+function removeSpot(id) {
+  const current = getSpots(id);
+  const next = Math.max(0, current - 1);
+  localStorage.setItem('spots_' + id, next);
+  const arr = getSpotted().filter(x => x !== id);
+  localStorage.setItem('valley-of-ai-spotted', JSON.stringify(arr));
+  return next;
+}

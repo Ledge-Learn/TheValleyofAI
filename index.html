@@ -177,30 +177,27 @@
   <!-- Filter Bar -->
   <div id="filter-bar">
     <div class="filter-inner">
-      <span class="mono-label filter-label">FILTER</span>
-      <div class="filter-buttons" role="group" aria-label="Filter billboards">
+      <div class="filter-top-row">
+        <button class="filter-mobile-toggle" id="filter-mobile-toggle" aria-expanded="false" aria-controls="filter-buttons-panel">
+          Filter <span class="filter-toggle-arrow">▾</span>
+        </button>
+        <select id="company-filter" class="company-filter-select" aria-label="Filter by company">
+          <option value="all">All Companies</option>
+        </select>
+      </div>
+      <div class="filter-buttons" id="filter-buttons-panel" role="group" aria-label="Filter billboards">
         <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="LLMs">LLMs</button>
-        <button class="filter-btn" data-filter="Infrastructure">Infrastructure</button>
-        <button class="filter-btn" data-filter="Agents">Agents</button>
-        <button class="filter-btn" data-filter="Finance">Finance</button>
-        <button class="filter-btn" data-filter="Dev Tools">Dev Tools</button>
-        <button class="filter-btn" data-filter="AI">AI</button>
         <button class="filter-btn" data-filter="SF Streets">SF Streets</button>
         <button class="filter-btn" data-filter="Hwy 101">Hwy 101</button>
-        <button class="filter-btn" data-filter="Hwy 280">Hwy 280</button>
-        <button class="filter-btn" data-filter="Oakland">Oakland</button>
+        <button class="filter-btn" data-filter="Oakland">Oakland / East Bay</button>
+        <button class="filter-btn" data-filter="San Jose">San Jose</button>
       </div>
-      <select id="company-filter" class="company-filter-select" aria-label="Filter by company">
-        <option value="all">All Companies</option>
-      </select>
     </div>
   </div>
 
   <!-- Gallery -->
   <section id="gallery">
-    <div class="section-header">
-      <span class="mono-label">INFESTATION GALLERY</span>
+    <div class="section-header" id="gallery-header">
       <h2>The <em>Archive</em></h2>
     </div>
     <div id="card-grid" class="card-grid"></div>
@@ -497,37 +494,6 @@
         <p id="modal-location-line" class="modal-location-line"></p>
         <blockquote id="modal-tagline" class="modal-tagline"></blockquote>
         <p id="modal-note" class="modal-editorial"></p>
-        <div class="modal-meters">
-          <div class="modal-meter-item">
-            <div class="modal-meter-head">
-              <span class="mono-label">BUZZWORD DENSITY</span>
-              <span id="mv-buzzword" class="modal-meter-val"></span>
-            </div>
-            <div class="modal-meter-track"><div id="mb-buzzword" class="modal-meter-fill" style="background:var(--meter-neg)"></div></div>
-          </div>
-          <div class="modal-meter-item">
-            <div class="modal-meter-head">
-              <span class="mono-label">BOOMER CONFUSION</span>
-              <span id="mv-boomer" class="modal-meter-val"></span>
-            </div>
-            <div class="modal-meter-track"><div id="mb-boomer" class="modal-meter-fill" style="background:var(--meter-comedy)"></div></div>
-          </div>
-          <div class="modal-meter-item">
-            <div class="modal-meter-head">
-              <span class="mono-label">WOULD ACTUALLY TRY</span>
-              <span id="mv-try" class="modal-meter-val"></span>
-            </div>
-            <div class="modal-meter-track"><div id="mb-try" class="modal-meter-fill" style="background:var(--meter-pos)"></div></div>
-          </div>
-          <div class="modal-meter-item">
-            <div class="modal-meter-head">
-              <span class="mono-label">MEMORABILITY</span>
-              <span id="mv-memory" class="modal-meter-val"></span>
-            </div>
-            <div class="modal-meter-track"><div id="mb-memory" class="modal-meter-fill" style="background:var(--meter-mem)"></div></div>
-          </div>
-        </div>
-        <div id="modal-ratings"></div>
         <div class="modal-footer-row">
           <span id="modal-spots-text" class="modal-spots-text"></span>
           <button id="modal-spot-btn" class="spot-btn-modal" onclick="spotFromModal()">▲ Spot This</button>

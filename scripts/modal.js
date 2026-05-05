@@ -38,15 +38,6 @@ function openModal(id) {
   document.getElementById('modal-tagline').textContent = '"' + b.tagline + '"';
   document.getElementById('modal-note').textContent = b.note;
 
-  // Meters (animate after brief delay)
-  setMeter('buzzword', 0, b.buzzword, 'var(--meter-neg)');
-  setMeter('boomer', 0, b.boomer, 'var(--meter-comedy)');
-  setMeter('try', 0, b.watry, 'var(--meter-pos)');
-  setMeter('memory', 0, b.memory, 'var(--meter-mem)');
-
-  // Reader ratings
-  renderModalRatings(b);
-
   // Spots
   updateModalSpots(id);
 
@@ -57,15 +48,6 @@ function openModal(id) {
   document.getElementById('modal-overlay').classList.add('open');
   document.body.style.overflow = 'hidden';
 
-  // Animate meters in after render
-  requestAnimationFrame(() => {
-    requestAnimationFrame(() => {
-      setMeter('buzzword', b.buzzword, b.buzzword, 'var(--meter-neg)');
-      setMeter('boomer', b.boomer, b.boomer, 'var(--meter-comedy)');
-      setMeter('try', b.watry, b.watry, 'var(--meter-pos)');
-      setMeter('memory', b.memory, b.memory, 'var(--meter-mem)');
-    });
-  });
 }
 
 function renderModalOther(b) {
@@ -95,13 +77,6 @@ function renderModalOther(b) {
     card.addEventListener('click', () => openModal(o.id));
     scroll.appendChild(card);
   });
-}
-
-function setMeter(key, value, display, color) {
-  const bar = document.getElementById('mb-' + key);
-  const val = document.getElementById('mv-' + key);
-  if (bar) bar.style.width = (value / 10) * 100 + '%';
-  if (val) val.textContent = display.toFixed ? display.toFixed(1) : display;
 }
 
 function updateModalSpots(id) {
@@ -134,16 +109,7 @@ function spotFromModal() {
   if (hasSpotted(currentModalId)) return;
   const newCount = addSpot(currentModalId);
   updateModalSpots(currentModalId);
-
-  // Also update card in gallery
-  const btn = document.getElementById('spot-btn-' + currentModalId);
-  const text = document.getElementById('spots-text-' + currentModalId);
-  if (btn) {
-    btn.textContent = '✓ Spotted';
-    btn.classList.add('spotted', 'user-spotted');
-    btn.title = "You've already spotted this billboard";
-  }
-  if (text) text.textContent = newCount + ' spots';
+  syncCardSpotCount(currentModalId, newCount);
 }
 
 // Close on overlay click (outside modal)

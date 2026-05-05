@@ -701,6 +701,38 @@ input, select, textarea { font: inherit; }
   border-color: var(--accent);
 }
 
+.filter-mobile-toggle {
+  display: none; /* shown via mobile media query */
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  background: transparent;
+  border: 1px solid var(--border);
+  padding: 5px 12px;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.filter-mobile-toggle:hover {
+  color: var(--text);
+  border-color: rgba(240, 78, 35, 0.4);
+}
+.filter-mobile-toggle[aria-expanded="true"] {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.filter-toggle-arrow {
+  transition: transform 0.18s;
+  display: inline-block;
+}
+.filter-mobile-toggle[aria-expanded="true"] .filter-toggle-arrow {
+  transform: rotate(180deg);
+}
+
 .company-filter-select {
   font-family: var(--font-mono);
   font-size: 10px;
@@ -849,7 +881,12 @@ section { padding: 112px 28px; }
 /* ===== GALLERY ===== */
 #gallery {
   background: var(--bg);
-  padding-top: 72px;
+  padding-top: 96px;
+}
+
+#gallery-header {
+  margin-bottom: 48px;
+  padding: 16px 0;
 }
 .no-results {
   font-family: var(--font-mono);
@@ -1167,13 +1204,35 @@ section { padding: 112px 28px; }
   .hero-stats { flex-direction: column; align-items: flex-start; gap: 18px; max-width: 100%; }
   .stat { padding: 0; }
   .stat-divider { display: none; }
-  .filter-inner { flex-direction: column; align-items: flex-start; gap: 10px; }
+  .filter-inner { flex-direction: column; align-items: stretch; gap: 0; }
+  .filter-mobile-toggle { display: flex; }
   .section-header { margin-bottom: 36px; }
   .footer-inner { grid-template-columns: 1fr; gap: 28px; }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
   #filter-bar { padding: 8px 16px; }
-  .filter-buttons { gap: 5px; }
-  .filter-btn { font-size: 9px; padding: 4px 9px; }
+
+  .filter-top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  /* Hide filter buttons by default on mobile; shown when open */
+  .filter-buttons {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 0 4px;
+  }
+  .filter-buttons.mobile-open { display: flex; }
+
+  .filter-btn { font-size: 9px; padding: 6px 12px; width: 100%; text-align: left; }
+}
+
+@media (min-width: 641px) {
+  .filter-mobile-toggle { display: none !important; }
+  .filter-top-row { display: contents; }
 }
