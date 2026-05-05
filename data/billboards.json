@@ -91,7 +91,7 @@
     "memory": 7.0,
     "spots": 47,
     "spotted_date": "2025-08-06",
-    "date": "Before Aug 2025",
+    "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #3a0a00 0%, #8b2500 50%, #c4390c 100%)"
   },
   {
@@ -117,7 +117,7 @@
     "memory": 5.5,
     "spots": 38,
     "spotted_date": "2025-08-06",
-    "date": "Before Aug 2025",
+    "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #00004a 0%, #001b7f 50%, #002395 100%)"
   },
   {
@@ -143,7 +143,7 @@
     "memory": 6.0,
     "spots": 23,
     "spotted_date": "2025-08-06",
-    "date": "Before Aug 2025",
+    "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #002200 0%, #003d00 50%, #005200 100%)"
   },
   {
@@ -169,7 +169,7 @@
     "memory": 8.0,
     "spots": 56,
     "spotted_date": "2025-08-06",
-    "date": "Before Aug 2025",
+    "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #1a0a4a 0%, #4a0082 50%, #6b21a8 100%)"
   },
   {
@@ -195,7 +195,7 @@
     "memory": 9.5,
     "spots": 71,
     "spotted_date": "2025-08-06",
-    "date": "Before Aug 2025",
+    "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #001a4a 0%, #002d7a 50%, #0a3d9c 100%)"
   },
   {
@@ -221,7 +221,7 @@
     "memory": 8.5,
     "spots": 44,
     "spotted_date": "2025-08-06",
-    "date": "Before Aug 2025",
+    "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #002a0a 0%, #004a14 50%, #006620 100%)"
   },
   {
@@ -247,7 +247,7 @@
     "memory": 9.0,
     "spots": 89,
     "spotted_date": "2025-08-06",
-    "date": "Before Aug 2025",
+    "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 50%, #111111 100%)"
   },
   {
@@ -273,7 +273,7 @@
     "memory": 9.5,
     "spots": 213,
     "spotted_date": "2025-08-06",
-    "date": "Before Aug 2025",
+    "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #4a0000 0%, #7a0000 50%, #9b0000 100%)"
   },
   {
@@ -299,7 +299,7 @@
     "memory": 5.0,
     "spots": 31,
     "spotted_date": "2025-08-06",
-    "date": "Before Aug 2025",
+    "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #002200 0%, #003a00 50%, #004d00 100%)"
   },
   {
@@ -325,7 +325,7 @@
     "memory": 8.0,
     "spots": 28,
     "spotted_date": "2025-08-06",
-    "date": "Before Aug 2025",
+    "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #0a1a0a 0%, #1a3a1a 50%, #0d2a0d 100%)"
   },
   {
@@ -351,7 +351,7 @@
     "memory": 3.5,
     "spots": 19,
     "spotted_date": "2025-08-06",
-    "date": "Before Aug 2025",
+    "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #2a1a00 0%, #4a2d00 50%, #6b4400 100%)"
   },
   {
@@ -377,7 +377,7 @@
     "memory": 9.0,
     "spots": 67,
     "spotted_date": "2025-08-06",
-    "date": "Before Aug 2025",
+    "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #1a0a2e 0%, #2d0f52 50%, #3d1a6e 100%)"
   },
   {
@@ -679,7 +679,7 @@
     "memory": 7.5,
     "spots": 52,
     "spotted_date": "2025-08-06",
-    "date": "Before Aug 2025",
+    "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 50%, #1a1a1a 100%)"
   },
   {
