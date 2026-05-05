@@ -269,9 +269,21 @@ input, select, textarea { font: inherit; }
   z-index: 1;
   background-image: url('../assets/images/logo/behindhero.svg');
   background-repeat: no-repeat;
-  background-size: 80% auto;
-  background-position: center bottom;
+  /* contain = full bridge visible, no cropping on any desktop width */
+  background-size: contain;
+  /* 50% vertical keeps bridge deck in the middle third, not sinking to footer */
+  background-position: center 50%;
   opacity: 0.26;
+}
+
+@media (max-width: 640px) {
+  .hero-bg-svg {
+    /* Zoom to ~one tower width so it reads as a bridge at small sizes */
+    background-size: 260% auto;
+    /* 68% horizontal = right tower; 28% vertical = upper hero, clear of stats row */
+    background-position: 68% 28%;
+    opacity: 0.20;
+  }
 }
 
 .hero-content {
