@@ -2,7 +2,7 @@
   {
     "id": "framer-101n-sanbruno-2025-05",
     "company": "Framer",
-    "location": "Hwy 101 N \u00b7 San Bruno",
+    "location": "Hwy 101 N · San Bruno",
     "lat": 37.671105,
     "lng": -122.39263,
     "tagline": "Build sites with enterprise needs at startup speeds",
@@ -25,7 +25,7 @@
   {
     "id": "braintrust-101n-2025-05",
     "company": "Braintrust",
-    "location": "Hwy 101 N \u00b7 Peninsula",
+    "location": "Hwy 101 N · Peninsula",
     "lat": 37.64898,
     "lng": -122.406845,
     "tagline": "Trace everything",
@@ -48,11 +48,11 @@
   {
     "id": "medable-101n-southsf-2025-05",
     "company": "Medable",
-    "location": "Hwy 101 N \u00b7 South SF",
+    "location": "Hwy 101 N · South SF",
     "lat": 37.642688,
     "lng": -122.406342,
     "tagline": "Some AI builds websites. Ours helps cure disease.",
-    "note": "The audacity to open with 'Some AI builds websites' \u2014 directed at the exact person who drove past this to build a website. A full moral victory lap.",
+    "note": "The audacity to open with 'Some AI builds websites' — directed at the exact person who drove past this to build a website. A full moral victory lap.",
     "category": "AI",
     "tags": [
       "AI",
@@ -71,7 +71,7 @@
   {
     "id": "postman-101-soma-2025-08",
     "company": "Postman",
-    "location": "Hwy 101 \u00b7 SoMa, SF",
+    "location": "Hwy 101 · SoMa, SF",
     "lat": 37.766,
     "lng": -122.413,
     "tagline": "Are your APIs ready for AI agents?",
@@ -149,7 +149,7 @@
   {
     "id": "stripe-billing-soma-2025-08",
     "company": "Stripe",
-    "location": "SoMa \u00b7 SF",
+    "location": "SoMa · SF",
     "lat": 37.771,
     "lng": -122.409,
     "tagline": "Powering 78% of the Forbes AI 50",
@@ -175,11 +175,11 @@
   {
     "id": "hive-101-2025-08",
     "company": "Hive",
-    "location": "Hwy 101 \u00b7 SF",
+    "location": "Hwy 101 · SF",
     "lat": 37.762,
     "lng": -122.412,
     "tagline": "Detect deepfakes & AI-generated content",
-    "note": "[NEEDS YOUR REVIEW \u2014 the photo shows a dachshund in a hot dog costume next to 'Not AI-Generated.' That's a real visual joke I want you to comment on, but you should see the photo and write your own line.]",
+    "note": "[NEEDS YOUR REVIEW — the photo shows a dachshund in a hot dog costume next to 'Not AI-Generated.' That's a real visual joke I want you to comment on, but you should see the photo and write your own line.]",
     "category": "AI",
     "tags": [
       "AI",
@@ -201,7 +201,7 @@
   {
     "id": "render-soma-2025-08",
     "company": "Render",
-    "location": "SoMa \u00b7 SF",
+    "location": "SoMa · SF",
     "lat": 37.768,
     "lng": -122.407,
     "tagline": "The modern cloud for ambitious startups",
@@ -227,7 +227,7 @@
   {
     "id": "gamma-101-sf-2025-08",
     "company": "Gamma",
-    "location": "Hwy 101 \u00b7 SF",
+    "location": "Hwy 101 · SF",
     "lat": 37.764,
     "lng": -122.411,
     "tagline": "Still using PowerPoint? Slides in the blink of AI.",
@@ -253,11 +253,11 @@
   {
     "id": "sf-fire-cu-soma-2025-08",
     "company": "SF Fire Credit Union",
-    "location": "SoMa \u00b7 SF",
+    "location": "SoMa · SF",
     "lat": 37.774,
     "lng": -122.406,
     "tagline": "Unlike banks, our A.I. includes Actual Individuals.",
-    "note": "[NEEDS YOUR REVIEW \u2014 this is the most interesting one. A credit union doing meta-commentary on AI marketing while advertising on a highway full of AI marketing. I want your take.]",
+    "note": "[NEEDS YOUR REVIEW — this is the most interesting one. A credit union doing meta-commentary on AI marketing while advertising on a highway full of AI marketing. I want your take.]",
     "category": "Finance",
     "tags": [
       "Finance",
@@ -279,11 +279,11 @@
   {
     "id": "servicenow-soma-2025-08",
     "company": "ServiceNow",
-    "location": "SoMa \u00b7 SF",
+    "location": "SoMa · SF",
     "lat": 37.767,
     "lng": -122.414,
     "tagline": "Put AI agents to work for people",
-    "note": "Reassuring messaging in the post-Artisan era. Not 'replace humans' anymore \u2014 'work FOR people.' The vibe shift in real time.",
+    "note": "Reassuring messaging in the post-Artisan era. Not 'replace humans' anymore — 'work FOR people.' The vibe shift in real time.",
     "category": "Agents",
     "tags": [
       "Agents",
@@ -305,7 +305,7 @@
   {
     "id": "nebius-soma-2025-08",
     "company": "Nebius",
-    "location": "SoMa \u00b7 SF",
+    "location": "SoMa · SF",
     "lat": 37.769,
     "lng": -122.412,
     "tagline": "AI runs better on US",
@@ -331,7 +331,7 @@
   {
     "id": "ringcentral-101-2025-08",
     "company": "RingCentral",
-    "location": "Hwy 101 \u00b7 SF",
+    "location": "Hwy 101 · SF",
     "lat": 37.758,
     "lng": -122.409,
     "tagline": "Goodbye missed calls. Hello, AI Receptionist.",
@@ -357,7 +357,7 @@
   {
     "id": "vanta-101-sf-2025-08",
     "company": "Vanta",
-    "location": "Hwy 101 \u00b7 SF",
+    "location": "Hwy 101 · SF",
     "lat": 37.756,
     "lng": -122.407,
     "tagline": "Compliance that doesn't SOC 2 much",
@@ -383,7 +383,7 @@
   {
     "id": "vercel-outer-sunset-sf-2026-05",
     "company": "Vercel",
-    "location": "Outer Sunset \u00b7 SF",
+    "location": "Outer Sunset · SF",
     "lat": 37.75279,
     "lng": -122.50439,
     "tagline": "That's so agentic.",
@@ -410,7 +410,7 @@
     "lat": 37.757,
     "lng": -122.415,
     "tagline": "90 days to ramp a BDR. 90 seconds to deploy Ava.",
-    "note": "90 days versus 90 seconds. The math does the selling. BDR stands for Business Development Representative \u2014 the billboard does not explain this. Artisan's fourth creative in the archive and the most statistically confident.",
+    "note": "90 days versus 90 seconds. The math does the selling. BDR stands for Business Development Representative — the billboard does not explain this. Artisan's fourth creative in the archive and the most statistically confident.",
     "category": "Agents",
     "tags": [
       "Agents",
@@ -429,7 +429,7 @@
   {
     "id": "deel-soma-sf-2026-05",
     "company": "Deel",
-    "location": "SoMa \u00b7 SF",
+    "location": "SoMa · SF",
     "lat": 37.773,
     "lng": -122.411,
     "tagline": "Founders get free payroll for life.",
@@ -456,7 +456,7 @@
     "lat": 37.773322,
     "lng": -122.415833,
     "tagline": "A new kind of help from Google.",
-    "note": "Every AI startup is trying to be the next Google. Google is reminding you it's already Google. The most ambient billboard in the city \u2014 everyone already has an opinion and it costs them nothing.",
+    "note": "Every AI startup is trying to be the next Google. Google is reminding you it's already Google. The most ambient billboard in the city — everyone already has an opinion and it costs them nothing.",
     "category": "AI",
     "tags": [
       "AI",
@@ -479,7 +479,7 @@
     "lat": 37.7738,
     "lng": -122.416428,
     "tagline": "Replace 5 tools with 1 AI employee.",
-    "note": "Not 'AI assistant.' Not 'AI copilot.' AI employee. The terminology is deliberate and the controversy is priced in \u2014 Artisan built an entire company on this exact backlash.",
+    "note": "Not 'AI assistant.' Not 'AI copilot.' AI employee. The terminology is deliberate and the controversy is priced in — Artisan built an entire company on this exact backlash.",
     "category": "Agents",
     "tags": [
       "Agents",
@@ -525,7 +525,7 @@
     "lat": 37.772812,
     "lng": -122.418983,
     "tagline": "B2B lead generation at CookUnity now runs on autopilot.",
-    "note": "The customer testimonial approach \u2014 Bruno Didier, Head of B2B at CookUnity. The addressable audience for this specific ad is measurable in the hundreds. Artisan has their list, and their list is apparently commuting.",
+    "note": "The customer testimonial approach — Bruno Didier, Head of B2B at CookUnity. The addressable audience for this specific ad is measurable in the hundreds. Artisan has their list, and their list is apparently commuting.",
     "category": "Agents",
     "tags": [
       "Agents",
@@ -544,7 +544,7 @@
   {
     "id": "brex-castro-sf-2026-05",
     "company": "Brex",
-    "location": "Castro \u00b7 SF",
+    "location": "Castro · SF",
     "lat": 37.763072,
     "lng": -122.434655,
     "tagline": "Time to get Brex AF. Agentic Finance.",
@@ -571,7 +571,7 @@
     "lat": 37.766178,
     "lng": -122.45488,
     "tagline": "Own your SLAs.",
-    "note": "Hot pink. All caps. SLA stands for Service Level Agreement \u2014 the kind of thing that appears in enterprise software contracts. Three words, and the entire addressable market self-selected. Everyone else kept walking.",
+    "note": "Hot pink. All caps. SLA stands for Service Level Agreement — the kind of thing that appears in enterprise software contracts. Three words, and the entire addressable market self-selected. Everyone else kept walking.",
     "category": "Infrastructure",
     "tags": [
       "Infrastructure",
@@ -594,7 +594,7 @@
     "lat": 37.766153,
     "lng": -122.454978,
     "tagline": "Ask more from CRM. Ask Attio.",
-    "note": "A wall of rhetorical CRM questions \u2014 'Ask who's closest to yes right now. Ask when that deal will close.' \u2014 then: Ask Attio. A transit shelter ad designed to be read slowly, while waiting. The format matches the medium.",
+    "note": "A wall of rhetorical CRM questions — 'Ask who's closest to yes right now. Ask when that deal will close.' — then: Ask Attio. A transit shelter ad designed to be read slowly, while waiting. The format matches the medium.",
     "category": "Infrastructure",
     "tags": [
       "Infrastructure",
@@ -613,10 +613,10 @@
   {
     "id": "posthog-muni-sf-2026-05",
     "company": "Bus Wrap",
-    "location": "MUNI Sunset Line \u00b7 SF",
+    "location": "MUNI Sunset Line · SF",
     "lat": 37.761,
     "lng": -122.468,
-    "tagline": "[Bus wrap \u2014 no tagline]",
+    "tagline": "[Bus wrap — no tagline]",
     "note": "PostHog wrapped an entire MUNI bus on the Sunset line in their brand. The hedgehog mascot does not explain the product. Nothing about this ad explains the product. It is bright yellow. It is enough.",
     "category": "Dev Tools",
     "tags": [
@@ -636,11 +636,11 @@
   {
     "id": "braintrust-muni-bus-sf-2026-05",
     "company": "Braintrust",
-    "location": "MUNI Route 7 \u00b7 SF",
+    "location": "MUNI Route 7 · SF",
     "lat": 37.753355,
     "lng": -122.495575,
     "tagline": "Build AI that works.",
-    "note": "Braintrust's second entry in the archive \u2014 their Hwy 101 billboard says 'Trace everything,' their bus says 'Build AI that works.' The bus is more legible. MUNI #6598, route 7, Haight.",
+    "note": "Braintrust's second entry in the archive — their Hwy 101 billboard says 'Trace everything,' their bus says 'Build AI that works.' The bus is more legible. MUNI #6598, route 7, Haight.",
     "category": "Dev Tools",
     "tags": [
       "Dev Tools",
@@ -659,7 +659,7 @@
   {
     "id": "notion-101-sf-2025-08",
     "company": "Notion",
-    "location": "Hwy 101 \u00b7 SF",
+    "location": "Hwy 101 · SF",
     "lat": 37.754,
     "lng": -122.406,
     "tagline": "Meet your AI team",
@@ -685,15 +685,15 @@
   {
     "id": "atlassian-rovo-101-millbrae-2026-05",
     "company": "Atlassian Rovo",
-    "location": "Hwy 101 \u00b7 Millbrae",
+    "location": "Hwy 101 · Millbrae",
     "lat": 37.600992,
     "lng": -122.377655,
-    "tagline": "Rovo takes your team from AI Novice \u2192 AI Native",
+    "tagline": "Rovo takes your team from AI Novice → AI Native",
     "note": "The corporate jargon ascent. What comes after Native? Transcendent?",
     "category": "Agents",
     "tags": [
       "agents",
-      "hwy-101"
+      "Hwy 101"
     ],
     "photo": "IMG_8637.jpeg",
     "buzzword": 7.5,
@@ -708,7 +708,7 @@
   {
     "id": "avalara-101-millbrae-2026-05",
     "company": "Avalara",
-    "location": "Hwy 101 \u00b7 Millbrae",
+    "location": "Hwy 101 · Millbrae",
     "lat": 37.602558,
     "lng": -122.380067,
     "tagline": "Close enough isn't compliant",
@@ -716,7 +716,7 @@
     "category": "Infrastructure",
     "tags": [
       "infrastructure",
-      "hwy-101"
+      "Hwy 101"
     ],
     "photo": "IMG_8640.jpeg",
     "buzzword": 5.0,
@@ -731,7 +731,7 @@
   {
     "id": "superannotate-101-peninsula-2026-05",
     "company": "SuperAnnotate",
-    "location": "Hwy 101 \u00b7 Peninsula",
+    "location": "Hwy 101 · Peninsula",
     "lat": 37.636722,
     "lng": -122.403953,
     "tagline": "The human layer behind better AI",
@@ -739,7 +739,7 @@
     "category": "Infrastructure",
     "tags": [
       "infrastructure",
-      "hwy-101"
+      "Hwy 101"
     ],
     "photo": "IMG_8643.jpeg",
     "buzzword": 5.5,
@@ -754,15 +754,15 @@
   {
     "id": "lovable-101-peninsula-2026-05",
     "company": "Lovable",
-    "location": "Hwy 101 \u00b7 Peninsula",
+    "location": "Hwy 101 · Peninsula",
     "lat": 37.640472,
     "lng": -122.405638,
     "tagline": "Make something people want love",
     "note": "The strikethrough of 'want' for 'love' quotes Paul Graham's YC essay. An AI vibe-coding tool doing a literary allusion. On a highway.",
     "category": "Dev Tools",
     "tags": [
-      "dev-tools",
-      "hwy-101"
+      "Dev Tools",
+      "Hwy 101"
     ],
     "photo": "IMG_8647.jpeg",
     "buzzword": 2.0,
@@ -777,7 +777,7 @@
   {
     "id": "c3ai-101-peninsula-2026-05",
     "company": "C3.ai",
-    "location": "Hwy 101 \u00b7 Peninsula",
+    "location": "Hwy 101 · Peninsula",
     "lat": 37.652363,
     "lng": -122.406883,
     "tagline": "This is Enterprise AI. Invented here.",
@@ -785,7 +785,7 @@
     "category": "Infrastructure",
     "tags": [
       "infrastructure",
-      "hwy-101"
+      "Hwy 101"
     ],
     "photo": "IMG_8660.jpeg",
     "buzzword": 6.5,
@@ -808,7 +808,7 @@
     "category": "Infrastructure",
     "tags": [
       "infrastructure",
-      "hwy-101"
+      "Hwy 101"
     ],
     "photo": "IMG_8662.jpeg",
     "buzzword": 7.0,
@@ -823,15 +823,15 @@
   {
     "id": "sigma-101-peninsula-2026-05",
     "company": "Sigma",
-    "location": "Hwy 101 \u00b7 Peninsula",
+    "location": "Hwy 101 · Peninsula",
     "lat": 37.705375,
     "lng": -122.394255,
     "tagline": "Shrink your SaaS. Build AI Apps.",
     "note": "Two calls to action for the price of one. Neither one makes sense to anyone not already paying for enterprise BI software.",
     "category": "Dev Tools",
     "tags": [
-      "dev-tools",
-      "hwy-101"
+      "Dev Tools",
+      "Hwy 101"
     ],
     "photo": "IMG_8671.jpeg",
     "buzzword": 6.0,
@@ -846,7 +846,7 @@
   {
     "id": "writer-101-sf-2026-05",
     "company": "Writer",
-    "location": "Hwy 101 \u00b7 SF",
+    "location": "Hwy 101 · SF",
     "lat": 37.618,
     "lng": -122.406,
     "tagline": "To-Do's to To-Done.",
@@ -854,7 +854,7 @@
     "category": "Agents",
     "tags": [
       "agents",
-      "hwy-101"
+      "Hwy 101"
     ],
     "photo": "IMG_8672.jpeg",
     "buzzword": 4.0,
@@ -869,7 +869,7 @@
   {
     "id": "twilio-soma-sf-2026-05",
     "company": "Twilio",
-    "location": "SoMa \u00b7 SF",
+    "location": "SoMa · SF",
     "lat": 37.725025,
     "lng": -122.401703,
     "tagline": "Don't fear the future. Build it.",
@@ -877,7 +877,7 @@
     "category": "Infrastructure",
     "tags": [
       "infrastructure",
-      "sf-streets"
+      "SF Streets"
     ],
     "photo": "IMG_8679.jpeg",
     "buzzword": 4.5,
@@ -896,11 +896,11 @@
     "lat": 37.72658,
     "lng": -122.402237,
     "tagline": "We do NOT sell dog toys.",
-    "note": "A gorilla holds a red ball. Zero buzzwords. Maximum personality. The subtext \u2014 'Unleash AI Connectivity' \u2014 almost ruins it. Almost.",
+    "note": "A gorilla holds a red ball. Zero buzzwords. Maximum personality. The subtext — 'Unleash AI Connectivity' — almost ruins it. Almost.",
     "category": "Infrastructure",
     "tags": [
       "infrastructure",
-      "sf-streets"
+      "SF Streets"
     ],
     "photo": "IMG_8681.jpeg",
     "buzzword": 1.5,
@@ -923,7 +923,7 @@
     "category": "Infrastructure",
     "tags": [
       "infrastructure",
-      "sf-streets"
+      "SF Streets"
     ],
     "photo": "IMG_8682.jpeg",
     "buzzword": 5.5,
@@ -946,7 +946,7 @@
     "category": "Agents",
     "tags": [
       "agents",
-      "sf-streets"
+      "SF Streets"
     ],
     "photo": "IMG_8696.jpeg",
     "buzzword": 3.5,
@@ -968,8 +968,8 @@
     "note": "Michelangelo's Creation of Adam, but God is pointing at cursor icons. The best billboard in SF that nobody can read from a moving car.",
     "category": "Dev Tools",
     "tags": [
-      "dev-tools",
-      "sf-streets"
+      "Dev Tools",
+      "SF Streets"
     ],
     "photo": "IMG_8689.jpeg",
     "buzzword": 5.0,
@@ -984,7 +984,7 @@
   {
     "id": "zoho-sf-2026-05",
     "company": "Zoho",
-    "location": "SoMa \u00b7 SF",
+    "location": "SoMa · SF",
     "lat": 37.772122,
     "lng": -122.406403,
     "tagline": "Simplify Work. Amplify Success.",
@@ -992,7 +992,7 @@
     "category": "Infrastructure",
     "tags": [
       "infrastructure",
-      "sf-streets"
+      "SF Streets"
     ],
     "photo": "IMG_8697.jpeg",
     "buzzword": 5.5,
@@ -1014,8 +1014,8 @@
     "note": "The Star Wars reference is doing heavy lifting. Spotted near University of San Francisco, presumably targeting students who should be studying.",
     "category": "Dev Tools",
     "tags": [
-      "dev-tools",
-      "sf-streets"
+      "Dev Tools",
+      "SF Streets"
     ],
     "photo": "IMG_8701.jpeg",
     "buzzword": 6.5,
@@ -1030,7 +1030,7 @@
   {
     "id": "turing-880-unioncity-2025-05",
     "company": "Turing",
-    "location": "I-880 \u00b7 Union City",
+    "location": "I-880 · Union City",
     "lat": 37.50061,
     "lng": -122.24129,
     "tagline": "Superintelligence. (That's it. That's the ad.)",
@@ -1063,7 +1063,7 @@
     "tags": [
       "saas",
       "crm",
-      "sf-streets"
+      "SF Streets"
     ],
     "photo": "IMG_8728.jpeg",
     "buzzword": 4.5,
@@ -1086,7 +1086,7 @@
     "category": "Fintech",
     "tags": [
       "fintech",
-      "hwy-101"
+      "Hwy 101"
     ],
     "photo": "IMG_8691.jpeg",
     "buzzword": 4.0,
@@ -1109,7 +1109,7 @@
     "category": "Infrastructure",
     "tags": [
       "infrastructure",
-      "hwy-101"
+      "Hwy 101"
     ],
     "photo": "IMG_8676.jpeg",
     "buzzword": 6.5,
@@ -1133,7 +1133,7 @@
     "tags": [
       "data",
       "infrastructure",
-      "hwy-101"
+      "Hwy 101"
     ],
     "photo": "IMG_8654.jpeg",
     "buzzword": 7.5,
@@ -1149,15 +1149,15 @@
     "id": "vibe-co-101-peninsula-2026-05",
     "company": "Vibe.co",
     "location": "Hwy 101 · Peninsula",
-    "lat": 37.660,
+    "lat": 37.66,
     "lng": -122.406,
     "tagline": "Size matters.",
     "note": "Two words and a domain. Vibe.co is the vibe coding platform, and they're implying context window size matters for AI coding. Or they just know what they're doing with a headline that makes you look twice.",
     "category": "Dev Tools",
     "tags": [
-      "dev-tools",
+      "Dev Tools",
       "vibe-coding",
-      "hwy-101"
+      "Hwy 101"
     ],
     "photo": "IMG_8668.jpeg",
     "buzzword": 4.0,
