@@ -71,7 +71,7 @@
   {
     "id": "postman-101-soma-2025-08",
     "company": "Postman",
-    "location": "Hwy 101 \u00b7 SoMa, SF (approx.)",
+    "location": "Hwy 101 \u00b7 SoMa, SF",
     "lat": 37.766,
     "lng": -122.413,
     "tagline": "Are your APIs ready for AI agents?",
@@ -97,7 +97,7 @@
   {
     "id": "okta-sf-streets-2025-08",
     "company": "Okta",
-    "location": "SF Streets (approx.)",
+    "location": "SF Streets",
     "lat": 37.773,
     "lng": -122.416,
     "tagline": "Build and secure AI agents from day one.",
@@ -123,7 +123,7 @@
   {
     "id": "promptql-sf-streets-2025-08",
     "company": "PromptQL",
-    "location": "SF Streets (approx.)",
+    "location": "SF Streets",
     "lat": 37.769,
     "lng": -122.41,
     "tagline": "Accurate AI is better.",
@@ -149,7 +149,7 @@
   {
     "id": "stripe-billing-soma-2025-08",
     "company": "Stripe",
-    "location": "SoMa \u00b7 SF (approx.)",
+    "location": "SoMa \u00b7 SF",
     "lat": 37.771,
     "lng": -122.409,
     "tagline": "Powering 78% of the Forbes AI 50",
@@ -175,7 +175,7 @@
   {
     "id": "hive-101-2025-08",
     "company": "Hive",
-    "location": "Hwy 101 \u00b7 SF (approx.)",
+    "location": "Hwy 101 \u00b7 SF",
     "lat": 37.762,
     "lng": -122.412,
     "tagline": "Detect deepfakes & AI-generated content",
@@ -201,7 +201,7 @@
   {
     "id": "render-soma-2025-08",
     "company": "Render",
-    "location": "SoMa \u00b7 SF (approx.)",
+    "location": "SoMa \u00b7 SF",
     "lat": 37.768,
     "lng": -122.407,
     "tagline": "The modern cloud for ambitious startups",
@@ -227,7 +227,7 @@
   {
     "id": "gamma-101-sf-2025-08",
     "company": "Gamma",
-    "location": "Hwy 101 \u00b7 SF (approx.)",
+    "location": "Hwy 101 \u00b7 SF",
     "lat": 37.764,
     "lng": -122.411,
     "tagline": "Still using PowerPoint? Slides in the blink of AI.",
@@ -253,7 +253,7 @@
   {
     "id": "sf-fire-cu-soma-2025-08",
     "company": "SF Fire Credit Union",
-    "location": "SoMa \u00b7 SF (approx.)",
+    "location": "SoMa \u00b7 SF",
     "lat": 37.774,
     "lng": -122.406,
     "tagline": "Unlike banks, our A.I. includes Actual Individuals.",
@@ -279,7 +279,7 @@
   {
     "id": "servicenow-soma-2025-08",
     "company": "ServiceNow",
-    "location": "SoMa \u00b7 SF (approx.)",
+    "location": "SoMa \u00b7 SF",
     "lat": 37.767,
     "lng": -122.414,
     "tagline": "Put AI agents to work for people",
@@ -305,7 +305,7 @@
   {
     "id": "nebius-soma-2025-08",
     "company": "Nebius",
-    "location": "SoMa \u00b7 SF (approx.)",
+    "location": "SoMa \u00b7 SF",
     "lat": 37.769,
     "lng": -122.412,
     "tagline": "AI runs better on US",
@@ -331,7 +331,7 @@
   {
     "id": "ringcentral-101-2025-08",
     "company": "RingCentral",
-    "location": "Hwy 101 \u00b7 SF (approx.)",
+    "location": "Hwy 101 \u00b7 SF",
     "lat": 37.758,
     "lng": -122.409,
     "tagline": "Goodbye missed calls. Hello, AI Receptionist.",
@@ -357,7 +357,7 @@
   {
     "id": "vanta-101-sf-2025-08",
     "company": "Vanta",
-    "location": "Hwy 101 \u00b7 SF (approx.)",
+    "location": "Hwy 101 \u00b7 SF",
     "lat": 37.756,
     "lng": -122.407,
     "tagline": "Compliance that doesn't SOC 2 much",
@@ -406,7 +406,7 @@
   {
     "id": "artisan-busshelt-90days-sf-2026-05",
     "company": "Artisan",
-    "location": "SF Streets (approx.)",
+    "location": "SF Streets",
     "lat": 37.757,
     "lng": -122.415,
     "tagline": "90 days to ramp a BDR. 90 seconds to deploy Ava.",
@@ -429,7 +429,7 @@
   {
     "id": "deel-soma-sf-2026-05",
     "company": "Deel",
-    "location": "SoMa \u00b7 SF (approx.)",
+    "location": "SoMa \u00b7 SF",
     "lat": 37.773,
     "lng": -122.411,
     "tagline": "Founders get free payroll for life.",
@@ -452,7 +452,7 @@
   {
     "id": "google-sf-streets-2026-05",
     "company": "Google",
-    "location": "SF Streets (approx.)",
+    "location": "SF Streets",
     "lat": 37.773322,
     "lng": -122.415833,
     "tagline": "A new kind of help from Google.",
@@ -475,7 +475,7 @@
   {
     "id": "artisan-busshelt-5tools-sf-2026-05",
     "company": "Artisan",
-    "location": "SF Streets (approx.)",
+    "location": "SF Streets",
     "lat": 37.7738,
     "lng": -122.416428,
     "tagline": "Replace 5 tools with 1 AI employee.",
@@ -498,7 +498,7 @@
   {
     "id": "agen-co-rapid-sf-2026-05",
     "company": "Agen.co",
-    "location": "SF Streets (approx.)",
+    "location": "SF Streets",
     "lat": 37.77413,
     "lng": -122.417433,
     "tagline": "Bridging the connectivity gap.",
@@ -521,7 +521,7 @@
   {
     "id": "artisan-cookunity-rapid-sf-2026-05",
     "company": "Artisan",
-    "location": "SF Streets (approx.)",
+    "location": "SF Streets",
     "lat": 37.772812,
     "lng": -122.418983,
     "tagline": "B2B lead generation at CookUnity now runs on autopilot.",
@@ -567,7 +567,7 @@
   {
     "id": "baseten-rapid-sf-2026-05",
     "company": "Baseten",
-    "location": "SF Streets (approx.)",
+    "location": "SF Streets",
     "lat": 37.766178,
     "lng": -122.45488,
     "tagline": "Own your SLAs.",
@@ -590,7 +590,7 @@
   {
     "id": "attio-rapid-sf-2026-05",
     "company": "Attio",
-    "location": "SF Streets (approx.)",
+    "location": "SF Streets",
     "lat": 37.766153,
     "lng": -122.454978,
     "tagline": "Ask more from CRM. Ask Attio.",
@@ -612,7 +612,7 @@
   },
   {
     "id": "posthog-muni-sf-2026-05",
-    "company": "PostHog",
+    "company": "Bus Wrap",
     "location": "MUNI Sunset Line \u00b7 SF",
     "lat": 37.761,
     "lng": -122.468,
@@ -659,7 +659,7 @@
   {
     "id": "notion-101-sf-2025-08",
     "company": "Notion",
-    "location": "Hwy 101 \u00b7 SF (approx.)",
+    "location": "Hwy 101 \u00b7 SF",
     "lat": 37.754,
     "lng": -122.406,
     "tagline": "Meet your AI team",
