@@ -475,9 +475,9 @@ input, select, textarea { font: inherit; }
     align-items: center;
   }
   .hero-btn-primary {
-    width: 80%;
-    max-width: 80%;
-    height: 52px;
+    width: fit-content;
+    height: 42px;
+    padding: 0 22px;
     align-self: center;
   }
 
