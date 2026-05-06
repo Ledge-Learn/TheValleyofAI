@@ -76,6 +76,11 @@ dataReady.then(function initMap() {
   // Sidebar
   buildSidebar(map, markers);
 
+  // Update verified locations count
+  const verifiedCount = BILLBOARDS.filter(b => b.lat && b.lng).length;
+  const countEl = document.getElementById('sidebar-count');
+  if (countEl) countEl.textContent = verifiedCount + ' verified locations';
+
   // Expose globally so sidebar clicks can fly to marker
   window._mapRef = map;
   window._markersRef = markers;
