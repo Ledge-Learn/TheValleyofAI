@@ -292,6 +292,70 @@ function initLiveStats() {
   }
 }
 
+// ===== PIN-DROP MAP =====
+(function initPinMap() {
+  const mapEl = document.getElementById('pin-map');
+  if (!mapEl || typeof L === 'undefined') return;
+
+  const pinMap = L.map('pin-map', {
+    center: [37.72, -122.24],
+    zoom: 9,
+    zoomControl: true,
+    scrollWheelZoom: false,
+  });
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: 'abcd',
+    maxZoom: 20,
+  }).addTo(pinMap);
+
+  const pinIcon = L.divIcon({
+    className: 'pin-drop-marker',
+    html: `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="36" viewBox="0 0 28 36">
+      <path d="M14 0C6.268 0 0 6.268 0 14c0 9.333 14 22 14 22S28 23.333 28 14C28 6.268 21.732 0 14 0z" fill="#F04E23" opacity="0.95"/>
+      <circle cx="14" cy="14" r="5" fill="#0b0f1a"/>
+      <circle cx="14" cy="14" r="2.5" fill="#F04E23"/>
+    </svg>`,
+    iconSize: [28, 36],
+    iconAnchor: [14, 36],
+  });
+
+  let pinMarker = null;
+  const hint  = document.getElementById('pin-hint');
+  const chip  = document.getElementById('pin-chip');
+  const latIn = document.getElementById('f-lat');
+  const lngIn = document.getElementById('f-lng');
+  const locIn = document.getElementById('f-location');
+
+  function updatePin(lat, lng) {
+    const ls = lat.toFixed(5);
+    const ln = lng.toFixed(5);
+    if (latIn) latIn.value = ls;
+    if (lngIn) lngIn.value = ln;
+    if (locIn && !locIn.value.trim()) locIn.value = ls + ', ' + ln;
+    if (chip) { chip.textContent = ls + ', ' + ln; chip.style.display = 'block'; }
+    if (hint) hint.textContent = '↕ DRAG PIN TO REPOSITION';
+  }
+
+  pinMap.on('click', function (e) {
+    const { lat, lng } = e.latlng;
+    if (pinMarker) {
+      pinMarker.setLatLng([lat, lng]);
+    } else {
+      pinMarker = L.marker([lat, lng], { icon: pinIcon, draggable: true }).addTo(pinMap);
+      pinMarker.on('dragend', function () {
+        const p = pinMarker.getLatLng();
+        updatePin(p.lat, p.lng);
+      });
+    }
+    updatePin(lat, lng);
+  });
+
+  setTimeout(() => pinMap.invalidateSize(), 300);
+  window.addEventListener('resize', () => pinMap.invalidateSize());
+})();
+
 // ===== INIT =====
 dataReady.then(() => {
   renderGallery('all', 'all');
