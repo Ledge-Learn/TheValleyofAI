@@ -80,7 +80,7 @@ input, select, textarea { font: inherit; }
   top: 0; left: 0; right: 0;
   height: var(--nav-height);
   background: var(--bg);
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid transparent;
   z-index: 100;
   transition: border-color 0.3s;
 }
