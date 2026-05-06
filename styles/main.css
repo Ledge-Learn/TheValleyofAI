@@ -345,7 +345,6 @@ input, select, textarea { font: inherit; }
   align-items: start;
   gap: 0;
   padding-top: 40px;
-  border-top: 1px solid var(--border);
   max-width: 900px;
 }
 
