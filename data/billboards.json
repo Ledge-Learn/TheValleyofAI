@@ -1144,5 +1144,29 @@
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #0c1929 0%, #0369a1 100%)"
+  },
+  {
+    "id": "vibe-co-101-peninsula-2026-05",
+    "company": "Vibe.co",
+    "location": "Hwy 101 · Peninsula",
+    "lat": 37.660,
+    "lng": -122.406,
+    "tagline": "Size matters.",
+    "note": "Two words and a domain. Vibe.co is the vibe coding platform, and they're implying context window size matters for AI coding. Or they just know what they're doing with a headline that makes you look twice.",
+    "category": "Dev Tools",
+    "tags": [
+      "dev-tools",
+      "vibe-coding",
+      "hwy-101"
+    ],
+    "photo": "IMG_8668.jpeg",
+    "buzzword": 4.0,
+    "boomer": 8.0,
+    "watry": 9.0,
+    "memory": 9.5,
+    "spots": 1,
+    "spotted_date": "2026-05-02",
+    "date": "May 2026",
+    "gradient": "linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%)"
   }
 ]
