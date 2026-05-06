@@ -531,7 +531,7 @@
       "Agents",
       "SF Streets"
     ],
-    "photo": "IMG_8725.jpeg",
+    "photo": "artisan.img.jpg",
     "buzzword": 7.0,
     "boomer": 8.5,
     "watry": 5.0,
@@ -798,8 +798,8 @@
     "gradient": "linear-gradient(135deg, #111827 0%, #374151 100%)"
   },
   {
-    "id": "unknown-agentic-infra-101-peninsula-2026-05",
-    "company": "Unknown",
+    "id": "vercel-101-peninsula-2026-05",
+    "company": "Vercel",
     "location": "Hwy 101 · Peninsula",
     "lat": 37.640472,
     "lng": -122.405638,
