@@ -304,7 +304,7 @@
     "location": "MUNI Sunset Line · SF",
     "lat": 37.761,
     "lng": -122.468,
-    "tagline": "[Bus wrap — no tagline]",
+    "tagline": "Bus wrap",
     "note": "PostHog wrapped an entire MUNI bus on the Sunset line in their brand. The hedgehog mascot does not explain the product. Nothing about this ad explains the product. It is bright yellow. It is enough.",
     "category": "Dev Tools",
     "tags": [
@@ -354,7 +354,7 @@
     "note": "The corporate jargon ascent. What comes after Native? Transcendent?",
     "category": "Agents",
     "tags": [
-      "agents",
+      "Agents",
       "Hwy 101"
     ],
     "photo": "IMG_8637.jpeg",
@@ -377,7 +377,7 @@
     "note": "Agentic AI for taxes. The subtext reads 'Agentic AI tax engineered for accuracy.' The IRS was not consulted.",
     "category": "Infrastructure",
     "tags": [
-      "infrastructure",
+      "Infrastructure",
       "Hwy 101"
     ],
     "photo": "IMG_8640.jpeg",
@@ -400,7 +400,7 @@
     "note": "A company whose entire business is people doing the work AI can't do yet, advertising that fact on a highway billboard. Respect.",
     "category": "Infrastructure",
     "tags": [
-      "infrastructure",
+      "Infrastructure",
       "Hwy 101"
     ],
     "photo": "IMG_8643.jpeg",
@@ -446,7 +446,7 @@
     "note": "Tom Siebel has been selling enterprise software since before most of these founders were born. He will outlast all of them.",
     "category": "Infrastructure",
     "tags": [
-      "infrastructure",
+      "Infrastructure",
       "Hwy 101"
     ],
     "photo": "IMG_8660.jpeg",
@@ -469,7 +469,7 @@
     "note": "Dark minimal billboard on Hwy 101 with a triangle logo. Triangle-logo company running clean infrastructure positioning. Company not yet confirmed — update id and company field when identified.",
     "category": "Infrastructure",
     "tags": [
-      "infrastructure",
+      "Infrastructure",
       "Hwy 101"
     ],
     "photo": "IMG_8662.jpeg",
@@ -515,7 +515,7 @@
     "note": "The only billboard on this highway with a pun good enough to repeat. Enterprise AI Agents with a personality. Suspicious.",
     "category": "Agents",
     "tags": [
-      "agents",
+      "Agents",
       "Hwy 101"
     ],
     "photo": "IMG_8672.jpeg",
@@ -538,7 +538,7 @@
     "note": "Twilio's pivot from 'communications platform' to 'agents platform' happened quietly and then all at once. The billboard agrees.",
     "category": "Infrastructure",
     "tags": [
-      "infrastructure",
+      "Infrastructure",
       "SF Streets"
     ],
     "photo": "IMG_8679.jpeg",
@@ -558,10 +558,10 @@
     "lat": 37.72658,
     "lng": -122.402237,
     "tagline": "We do NOT sell dog toys.",
-    "note": "A gorilla holds a red ball. Zero buzzwords. Maximum personality. The subtext — 'Unleash AI Connectivity' — almost ruins it. Almost.",
+    "note": "A gorilla holds a red bone. Zero buzzwords. Maximum personality. The subtext — 'Unleash AI Connectivity' — almost ruins it. Almost.",
     "category": "Infrastructure",
     "tags": [
-      "infrastructure",
+      "Infrastructure",
       "SF Streets"
     ],
     "photo": "IMG_8681.jpeg",
@@ -584,7 +584,7 @@
     "note": "Nobody who clicks a billboard ever bought billing infrastructure. But here we are.",
     "category": "Infrastructure",
     "tags": [
-      "infrastructure",
+      "Infrastructure",
       "SF Streets"
     ],
     "photo": "IMG_8682.jpeg",
@@ -607,7 +607,7 @@
     "note": "Not 'AI assistants' but 'the night shift.' Notion has figured out that AI works better when personified as a team you manage, not a tool you use.",
     "category": "Agents",
     "tags": [
-      "agents",
+      "Agents",
       "SF Streets"
     ],
     "photo": "IMG_8696.jpeg",
@@ -653,7 +653,7 @@
     "note": "On the other side of the Salesforce Tower, competing with every AI startup that spent 3x their budget on ad agencies. Zoho just said what it means.",
     "category": "Infrastructure",
     "tags": [
-      "infrastructure",
+      "Infrastructure",
       "SF Streets"
     ],
     "photo": "IMG_8697.jpeg",
@@ -723,8 +723,8 @@
     "note": "Minimal dark-panel execution in the Castro. One line, one ask. Attio is betting that anyone who knows what CRM means already knows they're frustrated with Salesforce.",
     "category": "SaaS",
     "tags": [
-      "saas",
-      "crm",
+      "SaaS",
+      "CRM",
       "SF Streets"
     ],
     "photo": "attio.img.jpg",
@@ -747,7 +747,7 @@
     "note": "Stripe leads with the number, not the product. $1.9T in payment volume as a moat — the billboard is essentially a press release dressed as an ad.",
     "category": "Fintech",
     "tags": [
-      "fintech",
+      "Fintech",
       "Hwy 101"
     ],
     "photo": "stripe.img.jpg",
@@ -770,7 +770,7 @@
     "note": "Inference infrastructure hiding behind the glamour. Fireworks AI is the fast-model-serving layer that most AI products quietly depend on — this is their billboard saying so out loud.",
     "category": "Infrastructure",
     "tags": [
-      "infrastructure",
+      "Infrastructure",
       "Hwy 101"
     ],
     "photo": "IMG_8676.jpeg",
@@ -793,8 +793,8 @@
     "note": "The data warehouse company wants you to know they do AI now. COCO is Cortex Code, their agentic layer. The playful headline is doing its best to make data infrastructure feel fun.",
     "category": "Data",
     "tags": [
-      "data",
-      "infrastructure",
+      "Data",
+      "Infrastructure",
       "Hwy 101"
     ],
     "photo": "IMG_8654.jpeg",
@@ -818,7 +818,7 @@
     "category": "Dev Tools",
     "tags": [
       "Dev Tools",
-      "vibe-coding",
+      "Vibe Coding",
       "Hwy 101"
     ],
     "photo": "IMG_8668.jpeg",
@@ -942,7 +942,7 @@
     "lat": 0,
     "lng": 0,
     "tagline": "Detect deepfakes & AI-generated content",
-    "note": "[NEEDS YOUR REVIEW — the photo shows a dachshund in a hot dog costume next to 'Not AI-Generated.' That's a real visual joke I want you to comment on, but you should see the photo and write your own line.]",
+    "note": "The photo shows a dachshund in a hot dog costume next to the words 'Not AI-Generated.' It is the most efficient brand demonstration in the archive. To prove your platform detects AI-generated content, you find the single most analog thing imaginable — a real dog, a real costume, physically impossible to fake — and let it do the talking.",
     "category": "AI",
     "tags": [
       "AI",
@@ -1020,7 +1020,7 @@
     "lat": 0,
     "lng": 0,
     "tagline": "Unlike banks, our A.I. includes Actual Individuals.",
-    "note": "[NEEDS YOUR REVIEW — this is the most interesting one. A credit union doing meta-commentary on AI marketing while advertising on a highway full of AI marketing. I want your take.]",
+    "note": "A credit union running a highway billboard that redefines AI as an acronym for Actual Individuals — surrounded on all sides by billboards claiming AI is superhuman. The only entry in the archive where the advertiser is directly subverting the language every other billboard is using. Underrated.",
     "category": "Finance",
     "tags": [
       "Finance",

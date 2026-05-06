@@ -5,6 +5,7 @@ function openModal(id) {
   const b = getBillboard(id);
   if (!b) return;
   currentModalId = id;
+  document.getElementById('modal').dataset.id = id;
 
   // Image
   const img = document.getElementById('modal-image');

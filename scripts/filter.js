@@ -21,8 +21,12 @@ if (filterToggle && filterPanel) {
 // Tag filter buttons
 document.querySelectorAll('.filter-btn').forEach(btn => {
   btn.addEventListener('click', function () {
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.filter-btn').forEach(b => {
+      b.classList.remove('active');
+      b.setAttribute('aria-pressed', 'false');
+    });
     this.classList.add('active');
+    this.setAttribute('aria-pressed', 'true');
     currentFilter = this.dataset.filter;
     renderGallery(currentFilter, currentCompanyFilter);
     scrollToGallery();

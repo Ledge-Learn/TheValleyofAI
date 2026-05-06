@@ -217,6 +217,10 @@
 .bill-card[data-id="c3ai-101-peninsula-2026-05"] .card-photo-img {
   object-position: top center;
 }
+.bill-card[data-id="ringcentral-101-2025-08"] .card-photo-img,
+.modal[data-id="ringcentral-101-2025-08"] .modal-photo-img {
+  object-position: center 88%;
+}
 
 /* ===== MODAL ===== */
 .modal-overlay {
