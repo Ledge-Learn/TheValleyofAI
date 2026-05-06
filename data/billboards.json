@@ -1094,7 +1094,7 @@
   {
     "id": "ringcentral-101-2025-08",
     "company": "RingCentral",
-    "location": "Hwy 101 · SF",
+    "location": "SF Streets",
     "lat": 0,
     "lng": 0,
     "tagline": "Goodbye missed calls. Hello, AI Receptionist.",
@@ -1102,20 +1102,18 @@
     "category": "AI",
     "tags": [
       "AI",
-      "Hwy 101"
+      "SF Streets"
     ],
-    "photo": "aaron-parecki-2025-08/image-13.jpg",
-    "photo_credit": "Aaron Parecki",
-    "photo_credit_url": "https://aaronparecki.com/2025/08/06/14/sf-billboards",
-    "photo_source_note": "From Aaron Parecki's SF Billboards archive, August 2025, used with permission",
+    "photo": "ring.img.jpeg",
     "buzzword": 6.5,
     "boomer": 5.0,
     "watry": 6.0,
     "memory": 3.5,
     "spots": 19,
-    "spotted_date": "2025-08-06",
-    "date": "Aug 2025",
-    "gradient": "linear-gradient(135deg, #2a1a00 0%, #4a2d00 50%, #6b4400 100%)"
+    "spotted_date": "2026-05-06",
+    "date": "May 2026",
+    "gradient": "linear-gradient(135deg, #2a1a00 0%, #4a2d00 50%, #6b4400 100%)",
+    "pinned": true
   },
   {
     "id": "vanta-101-sf-2025-08",

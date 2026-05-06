@@ -129,11 +129,14 @@ function renderGallery(tagFilter, companyFilter) {
   if (companyFilter && companyFilter !== 'all') {
     filtered = filtered.filter(b => b.company === companyFilter);
   }
-  // Fisher-Yates shuffle — new random order each page load
-  for (let i = filtered.length - 1; i > 0; i--) {
+  // Pinned cards stay first; rest shuffle on each page load
+  const pinned = filtered.filter(b => b.pinned);
+  const rest = filtered.filter(b => !b.pinned);
+  for (let i = rest.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [filtered[i], filtered[j]] = [filtered[j], filtered[i]];
+    [rest[i], rest[j]] = [rest[j], rest[i]];
   }
+  filtered = [...pinned, ...rest];
 
   if (filtered.length === 0) {
     noResults.style.display = 'block';
