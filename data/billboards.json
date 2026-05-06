@@ -1097,5 +1097,52 @@
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #1e0a3c 0%, #6d28d9 50%, #f97316 100%)"
+  },
+  {
+    "id": "fireworks-ai-101-brisbane-2026-05",
+    "company": "Fireworks AI",
+    "location": "Hwy 101 · Brisbane",
+    "lat": 37.722978,
+    "lng": -122.400917,
+    "tagline": "Behind every magical AI, there's Fireworks.",
+    "note": "Inference infrastructure hiding behind the glamour. Fireworks AI is the fast-model-serving layer that most AI products quietly depend on — this is their billboard saying so out loud.",
+    "category": "Infrastructure",
+    "tags": [
+      "infrastructure",
+      "hwy-101"
+    ],
+    "photo": "IMG_8676.jpeg",
+    "buzzword": 6.5,
+    "boomer": 5.0,
+    "watry": 5.5,
+    "memory": 7.0,
+    "spots": 1,
+    "spotted_date": "2026-05-02",
+    "date": "May 2026",
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #1d4ed8 100%)"
+  },
+  {
+    "id": "snowflake-101-southsf-2026-05",
+    "company": "Snowflake",
+    "location": "Hwy 101 · South SF",
+    "lat": 37.645888,
+    "lng": -122.406312,
+    "tagline": "LOCO FOR COCO. Cortex Code brings agentic AI to all your data.",
+    "note": "The data warehouse company wants you to know they do AI now. COCO is Cortex Code, their agentic layer. The playful headline is doing its best to make data infrastructure feel fun.",
+    "category": "Data",
+    "tags": [
+      "data",
+      "infrastructure",
+      "hwy-101"
+    ],
+    "photo": "IMG_8654.jpeg",
+    "buzzword": 7.5,
+    "boomer": 7.0,
+    "watry": 6.5,
+    "memory": 7.5,
+    "spots": 1,
+    "spotted_date": "2026-05-02",
+    "date": "May 2026",
+    "gradient": "linear-gradient(135deg, #0c1929 0%, #0369a1 100%)"
   }
 ]
