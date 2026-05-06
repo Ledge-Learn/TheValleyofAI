@@ -1050,5 +1050,52 @@
     "spotted_date": "2025-05-01",
     "date": "May 2025",
     "gradient": "linear-gradient(135deg, #3b0764 0%, #7c3aed 50%, #db2777 100%)"
+  },
+  {
+    "id": "attio-sf-castro-2026-05",
+    "company": "Attio",
+    "location": "SF Streets · Castro",
+    "lat": 37.764683,
+    "lng": -122.432639,
+    "tagline": "Ask more from CRM. Ask Attio.",
+    "note": "Minimal dark-panel execution in the Castro. One line, one ask. Attio is betting that anyone who knows what CRM means already knows they're frustrated with Salesforce.",
+    "category": "SaaS",
+    "tags": [
+      "saas",
+      "crm",
+      "sf-streets"
+    ],
+    "photo": "IMG_8728.jpeg",
+    "buzzword": 4.5,
+    "boomer": 6.5,
+    "watry": 4.0,
+    "memory": 6.0,
+    "spots": 1,
+    "spotted_date": "2026-05-02",
+    "date": "May 2026",
+    "gradient": "linear-gradient(135deg, #0a0a0a 0%, #1c1c1c 100%)"
+  },
+  {
+    "id": "stripe-101-southsf-2026-05",
+    "company": "Stripe",
+    "location": "Hwy 101 · South SF",
+    "lat": 37.749387,
+    "lng": -122.403703,
+    "tagline": "Fraud detection trained on over $1.9T annually.",
+    "note": "Stripe leads with the number, not the product. $1.9T in payment volume as a moat — the billboard is essentially a press release dressed as an ad.",
+    "category": "Fintech",
+    "tags": [
+      "fintech",
+      "hwy-101"
+    ],
+    "photo": "IMG_8691.jpeg",
+    "buzzword": 4.0,
+    "boomer": 6.0,
+    "watry": 3.5,
+    "memory": 7.5,
+    "spots": 1,
+    "spotted_date": "2026-05-02",
+    "date": "May 2026",
+    "gradient": "linear-gradient(135deg, #1e0a3c 0%, #6d28d9 50%, #f97316 100%)"
   }
 ]
