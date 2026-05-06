@@ -427,7 +427,7 @@ input, select, textarea { font: inherit; }
   background: var(--accent);
   color: #fff;
   border: 1px solid var(--accent);
-  max-width: 320px;
+  align-self: flex-start;
 }
 .hero-btn-primary:hover {
   background: #f05a2a;
@@ -478,6 +478,7 @@ input, select, textarea { font: inherit; }
     width: 80%;
     max-width: 80%;
     height: 52px;
+    align-self: center;
   }
 
   /* Row 2: stack vertically, centered */
