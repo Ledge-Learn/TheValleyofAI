@@ -92,13 +92,6 @@ function buildSidebar(map, markers) {
     item.innerHTML = `
       <div class="sidebar-company">${b.company}</div>
       <div class="sidebar-location">${b.location}</div>
-      <div class="sidebar-buzz-wrap">
-        <span class="sidebar-buzz-label">BUZZ</span>
-        <div class="sidebar-buzz-track">
-          <div class="sidebar-buzz-fill" style="width:${(b.buzzword / 10) * 100}%"></div>
-        </div>
-        <span class="sidebar-buzz-val">${b.buzzword.toFixed(1)}</span>
-      </div>
     `;
 
     item.addEventListener('click', () => {
