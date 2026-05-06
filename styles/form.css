@@ -131,7 +131,7 @@
 /* ===== TEXTAREA ===== */
 .form-group textarea {
   resize: vertical;
-  min-height: 112px;
+  min-height: 80px;
   line-height: 1.65;
 }
 
@@ -367,7 +367,7 @@
   #submit { padding: 56px 20px; }
   .submit-head { margin-bottom: 32px; }
   .submit-subtitle { font-size: 14px; }
-  .pin-hint { left: 10px; top: 44px; }
+  .pin-hint { left: 10px; top: 72px; }
   #pin-map { height: 220px; }
   .form-actions {
     flex-direction: column;
