@@ -2,7 +2,7 @@
   {
     "id": "framer-101n-sanbruno-2025-05",
     "company": "Framer",
-    "location": "Hwy 101 N · San Bruno",
+    "location": "Hwy 101 N \u00b7 San Bruno",
     "lat": 37.671105,
     "lng": -122.39263,
     "tagline": "Build sites with enterprise needs at startup speeds",
@@ -17,7 +17,7 @@
     "boomer": 7.0,
     "watry": 8.0,
     "memory": 6.5,
-    "spots": 31,
+    "spots": 21,
     "spotted_date": "2025-05-01",
     "date": "May 2025",
     "gradient": "linear-gradient(135deg, #1a0a3a 0%, #3d0a8c 50%, #6600cc 100%)"
@@ -25,7 +25,7 @@
   {
     "id": "braintrust-101n-2025-05",
     "company": "Braintrust",
-    "location": "Hwy 101 N · Peninsula",
+    "location": "Hwy 101 N \u00b7 Peninsula",
     "lat": 37.64898,
     "lng": -122.406845,
     "tagline": "Trace everything",
@@ -40,7 +40,7 @@
     "boomer": 8.5,
     "watry": 6.5,
     "memory": 9.0,
-    "spots": 19,
+    "spots": 4,
     "spotted_date": "2025-05-01",
     "date": "May 2025",
     "gradient": "linear-gradient(135deg, #0a1428 0%, #0d2144 50%, #0a1830 100%)"
@@ -48,11 +48,11 @@
   {
     "id": "medable-101n-southsf-2025-05",
     "company": "Medable",
-    "location": "Hwy 101 N · South SF",
+    "location": "Hwy 101 N \u00b7 South SF",
     "lat": 37.642688,
     "lng": -122.406342,
     "tagline": "Some AI builds websites. Ours helps cure disease.",
-    "note": "The audacity to open with 'Some AI builds websites' — directed at the exact person who drove past this to build a website. A full moral victory lap.",
+    "note": "The audacity to open with 'Some AI builds websites' \u2014 directed at the exact person who drove past this to build a website. A full moral victory lap.",
     "category": "AI",
     "tags": [
       "AI",
@@ -63,7 +63,7 @@
     "boomer": 4.0,
     "watry": 8.5,
     "memory": 9.5,
-    "spots": 12,
+    "spots": 1,
     "spotted_date": "2025-05-01",
     "date": "May 2025",
     "gradient": "linear-gradient(135deg, #001a2e 0%, #002a4a 50%, #001e3a 100%)"
@@ -71,7 +71,7 @@
   {
     "id": "vercel-outer-sunset-sf-2026-05",
     "company": "Vercel",
-    "location": "Outer Sunset · SF",
+    "location": "Outer Sunset \u00b7 SF",
     "lat": 37.75279,
     "lng": -122.50439,
     "tagline": "That's so agentic.",
@@ -86,7 +86,7 @@
     "boomer": 9.5,
     "watry": 4.0,
     "memory": 9.5,
-    "spots": 1,
+    "spots": 24,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #0a0a0a 0%, #1c1c1c 50%, #0a0a0a 100%)"
@@ -98,7 +98,7 @@
     "lat": 37.757,
     "lng": -122.415,
     "tagline": "90 days to ramp a BDR. 90 seconds to deploy Ava.",
-    "note": "90 days versus 90 seconds. The math does the selling. BDR stands for Business Development Representative — the billboard does not explain this. Artisan's fourth creative in the archive and the most statistically confident.",
+    "note": "90 days versus 90 seconds. The math does the selling. BDR stands for Business Development Representative \u2014 the billboard does not explain this. Artisan's fourth creative in the archive and the most statistically confident.",
     "category": "Agents",
     "tags": [
       "Agents",
@@ -109,7 +109,7 @@
     "boomer": 9.0,
     "watry": 3.5,
     "memory": 8.5,
-    "spots": 1,
+    "spots": 9,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #1a0030 0%, #3d0080 50%, #6600cc 100%)"
@@ -117,7 +117,7 @@
   {
     "id": "deel-soma-sf-2026-05",
     "company": "Deel",
-    "location": "SoMa · SF",
+    "location": "SoMa \u00b7 SF",
     "lat": 37.773,
     "lng": -122.411,
     "tagline": "Founders get free payroll for life.",
@@ -132,7 +132,7 @@
     "boomer": 2.5,
     "watry": 8.5,
     "memory": 8.5,
-    "spots": 1,
+    "spots": 8,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #10002b 0%, #3c096c 50%, #5a189a 100%)"
@@ -144,7 +144,7 @@
     "lat": 37.773322,
     "lng": -122.415833,
     "tagline": "A new kind of help from Google.",
-    "note": "Every AI startup is trying to be the next Google. Google is reminding you it's already Google. The most ambient billboard in the city — everyone already has an opinion and it costs them nothing.",
+    "note": "Every AI startup is trying to be the next Google. Google is reminding you it's already Google. The most ambient billboard in the city \u2014 everyone already has an opinion and it costs them nothing.",
     "category": "AI",
     "tags": [
       "AI",
@@ -155,7 +155,7 @@
     "boomer": 2.5,
     "watry": 6.0,
     "memory": 3.5,
-    "spots": 1,
+    "spots": 8,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #1a4080 0%, #0d5a1a 35%, #8a6a00 65%, #8a1a10 100%)"
@@ -167,7 +167,7 @@
     "lat": 37.7738,
     "lng": -122.416428,
     "tagline": "Replace 5 tools with 1 AI employee.",
-    "note": "Not 'AI assistant.' Not 'AI copilot.' AI employee. The terminology is deliberate and the controversy is priced in — Artisan built an entire company on this exact backlash.",
+    "note": "Not 'AI assistant.' Not 'AI copilot.' AI employee. The terminology is deliberate and the controversy is priced in \u2014 Artisan built an entire company on this exact backlash.",
     "category": "Agents",
     "tags": [
       "Agents",
@@ -178,7 +178,7 @@
     "boomer": 7.5,
     "watry": 3.0,
     "memory": 9.5,
-    "spots": 1,
+    "spots": 5,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #1a0030 0%, #3d0080 50%, #6600cc 100%)"
@@ -201,7 +201,7 @@
     "boomer": 10.0,
     "watry": 2.0,
     "memory": 6.5,
-    "spots": 1,
+    "spots": 24,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #0a0a14 0%, #141428 50%, #0a0a1c 100%)"
@@ -213,7 +213,7 @@
     "lat": 37.772812,
     "lng": -122.418983,
     "tagline": "B2B lead generation at CookUnity now runs on autopilot.",
-    "note": "The customer testimonial approach — Bruno Didier, Head of B2B at CookUnity. The addressable audience for this specific ad is measurable in the hundreds. Artisan has their list, and their list is apparently commuting.",
+    "note": "The customer testimonial approach \u2014 Bruno Didier, Head of B2B at CookUnity. The addressable audience for this specific ad is measurable in the hundreds. Artisan has their list, and their list is apparently commuting.",
     "category": "Agents",
     "tags": [
       "Agents",
@@ -224,7 +224,7 @@
     "boomer": 8.5,
     "watry": 5.0,
     "memory": 7.5,
-    "spots": 1,
+    "spots": 4,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #1a0030 0%, #3d0080 50%, #6600cc 100%)"
@@ -232,7 +232,7 @@
   {
     "id": "brex-castro-sf-2026-05",
     "company": "Brex",
-    "location": "Castro · SF",
+    "location": "Castro \u00b7 SF",
     "lat": 37.763072,
     "lng": -122.434655,
     "tagline": "Time to get Brex AF. Agentic Finance.",
@@ -247,7 +247,7 @@
     "boomer": 9.5,
     "watry": 5.5,
     "memory": 9.5,
-    "spots": 1,
+    "spots": 22,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #5a0a00 0%, #c41400 50%, #f53800 100%)"
@@ -259,7 +259,7 @@
     "lat": 37.766178,
     "lng": -122.45488,
     "tagline": "Own your SLAs.",
-    "note": "Hot pink. All caps. SLA stands for Service Level Agreement — the kind of thing that appears in enterprise software contracts. Three words, and the entire addressable market self-selected. Everyone else kept walking.",
+    "note": "Hot pink. All caps. SLA stands for Service Level Agreement \u2014 the kind of thing that appears in enterprise software contracts. Three words, and the entire addressable market self-selected. Everyone else kept walking.",
     "category": "Infrastructure",
     "tags": [
       "Infrastructure",
@@ -270,7 +270,7 @@
     "boomer": 9.5,
     "watry": 5.5,
     "memory": 8.5,
-    "spots": 1,
+    "spots": 24,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #4a0a28 0%, #8a1a50 50%, #cc3388 100%)"
@@ -282,7 +282,7 @@
     "lat": 37.766153,
     "lng": -122.454978,
     "tagline": "Ask more from CRM. Ask Attio.",
-    "note": "A wall of rhetorical CRM questions — 'Ask who's closest to yes right now. Ask when that deal will close.' — then: Ask Attio. A transit shelter ad designed to be read slowly, while waiting. The format matches the medium.",
+    "note": "A wall of rhetorical CRM questions \u2014 'Ask who's closest to yes right now. Ask when that deal will close.' \u2014 then: Ask Attio. A transit shelter ad designed to be read slowly, while waiting. The format matches the medium.",
     "category": "Infrastructure",
     "tags": [
       "Infrastructure",
@@ -293,7 +293,7 @@
     "boomer": 8.0,
     "watry": 6.5,
     "memory": 7.0,
-    "spots": 1,
+    "spots": 18,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0f0f0f 100%)"
@@ -301,7 +301,7 @@
   {
     "id": "posthog-muni-sf-2026-05",
     "company": "Bus Wrap",
-    "location": "MUNI Sunset Line · SF",
+    "location": "MUNI Sunset Line \u00b7 SF",
     "lat": 37.761,
     "lng": -122.468,
     "tagline": "Bus wrap",
@@ -316,7 +316,7 @@
     "boomer": 9.5,
     "watry": 6.5,
     "memory": 10.0,
-    "spots": 1,
+    "spots": 3,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #7a5000 0%, #b87800 50%, #f0a020 100%)"
@@ -324,11 +324,11 @@
   {
     "id": "braintrust-muni-bus-sf-2026-05",
     "company": "Braintrust",
-    "location": "MUNI Route 7 · SF",
+    "location": "MUNI Route 7 \u00b7 SF",
     "lat": 37.753355,
     "lng": -122.495575,
     "tagline": "Build AI that works.",
-    "note": "Braintrust's second entry in the archive — their Hwy 101 billboard says 'Trace everything,' their bus says 'Build AI that works.' The bus is more legible. MUNI #6598, route 7, Haight.",
+    "note": "Braintrust's second entry in the archive \u2014 their Hwy 101 billboard says 'Trace everything,' their bus says 'Build AI that works.' The bus is more legible. MUNI #6598, route 7, Haight.",
     "category": "Dev Tools",
     "tags": [
       "Dev Tools",
@@ -339,7 +339,7 @@
     "boomer": 5.0,
     "watry": 6.5,
     "memory": 6.0,
-    "spots": 1,
+    "spots": 19,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #0a1428 0%, #0d2144 50%, #0a1830 100%)"
@@ -347,10 +347,10 @@
   {
     "id": "atlassian-rovo-101-millbrae-2026-05",
     "company": "Atlassian Rovo",
-    "location": "Hwy 101 · Millbrae",
+    "location": "Hwy 101 \u00b7 Millbrae",
     "lat": 37.600992,
     "lng": -122.377655,
-    "tagline": "Rovo takes your team from AI Novice → AI Native",
+    "tagline": "Rovo takes your team from AI Novice \u2192 AI Native",
     "note": "The corporate jargon ascent. What comes after Native? Transcendent?",
     "category": "Agents",
     "tags": [
@@ -362,7 +362,7 @@
     "boomer": 8.0,
     "watry": 5.0,
     "memory": 6.5,
-    "spots": 1,
+    "spots": 14,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #0052cc 0%, #0ea5e9 100%)"
@@ -370,7 +370,7 @@
   {
     "id": "avalara-101-millbrae-2026-05",
     "company": "Avalara",
-    "location": "Hwy 101 · Millbrae",
+    "location": "Hwy 101 \u00b7 Millbrae",
     "lat": 37.602558,
     "lng": -122.380067,
     "tagline": "Close enough isn't compliant",
@@ -385,7 +385,7 @@
     "boomer": 5.5,
     "watry": 6.0,
     "memory": 7.5,
-    "spots": 1,
+    "spots": 2,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #c2410c 0%, #f97316 100%)"
@@ -393,7 +393,7 @@
   {
     "id": "superannotate-101-peninsula-2026-05",
     "company": "SuperAnnotate",
-    "location": "Hwy 101 · Peninsula",
+    "location": "Hwy 101 \u00b7 Peninsula",
     "lat": 37.636722,
     "lng": -122.403953,
     "tagline": "The human layer behind better AI",
@@ -416,7 +416,7 @@
   {
     "id": "lovable-101-peninsula-2026-05",
     "company": "Lovable",
-    "location": "Hwy 101 · Peninsula",
+    "location": "Hwy 101 \u00b7 Peninsula",
     "lat": 37.640472,
     "lng": -122.405638,
     "tagline": "Make something people want love",
@@ -431,7 +431,7 @@
     "boomer": 4.0,
     "watry": 8.5,
     "memory": 9.0,
-    "spots": 1,
+    "spots": 3,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #1e1b4b 0%, #7c3aed 100%)"
@@ -439,7 +439,7 @@
   {
     "id": "c3ai-101-peninsula-2026-05",
     "company": "C3.ai",
-    "location": "Hwy 101 · Peninsula",
+    "location": "Hwy 101 \u00b7 Peninsula",
     "lat": 37.652363,
     "lng": -122.406883,
     "tagline": "This is Enterprise AI. Invented here.",
@@ -454,7 +454,7 @@
     "boomer": 6.0,
     "watry": 3.5,
     "memory": 6.0,
-    "spots": 1,
+    "spots": 7,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #111827 0%, #374151 100%)"
@@ -462,11 +462,11 @@
   {
     "id": "vercel-101-peninsula-2026-05",
     "company": "Vercel",
-    "location": "Hwy 101 · Peninsula",
+    "location": "Hwy 101 \u00b7 Peninsula",
     "lat": 37.640472,
     "lng": -122.405638,
     "tagline": "Agentic Infrastructure.",
-    "note": "Dark minimal billboard on Hwy 101 with a triangle logo. Triangle-logo company running clean infrastructure positioning. Company not yet confirmed — update id and company field when identified.",
+    "note": "Dark minimal billboard on Hwy 101 with a triangle logo. Triangle-logo company running clean infrastructure positioning. Company not yet confirmed \u2014 update id and company field when identified.",
     "category": "Infrastructure",
     "tags": [
       "Infrastructure",
@@ -477,7 +477,7 @@
     "boomer": 8.5,
     "watry": 4.0,
     "memory": 6.0,
-    "spots": 1,
+    "spots": 8,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%)"
@@ -485,7 +485,7 @@
   {
     "id": "sigma-101-peninsula-2026-05",
     "company": "Sigma",
-    "location": "Hwy 101 · Peninsula",
+    "location": "Hwy 101 \u00b7 Peninsula",
     "lat": 37.705375,
     "lng": -122.394255,
     "tagline": "Shrink your SaaS. Build AI Apps.",
@@ -500,7 +500,7 @@
     "boomer": 8.5,
     "watry": 4.5,
     "memory": 6.5,
-    "spots": 1,
+    "spots": 17,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%)"
@@ -508,7 +508,7 @@
   {
     "id": "writer-101-sf-2026-05",
     "company": "Writer",
-    "location": "Hwy 101 · SF",
+    "location": "Hwy 101 \u00b7 SF",
     "lat": 37.618,
     "lng": -122.406,
     "tagline": "To-Do's to To-Done.",
@@ -523,7 +523,7 @@
     "boomer": 5.5,
     "watry": 6.5,
     "memory": 8.5,
-    "spots": 1,
+    "spots": 20,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #14532d 0%, #166534 100%)"
@@ -531,7 +531,7 @@
   {
     "id": "twilio-soma-sf-2026-05",
     "company": "Twilio",
-    "location": "SoMa · SF",
+    "location": "SoMa \u00b7 SF",
     "lat": 37.725025,
     "lng": -122.401703,
     "tagline": "Don't fear the future. Build it.",
@@ -558,7 +558,7 @@
     "lat": 37.72658,
     "lng": -122.402237,
     "tagline": "We do NOT sell dog toys.",
-    "note": "A gorilla holds a red bone. Zero buzzwords. Maximum personality. The subtext — 'Unleash AI Connectivity' — almost ruins it. Almost.",
+    "note": "A gorilla holds a red bone. Zero buzzwords. Maximum personality. The subtext \u2014 'Unleash AI Connectivity' \u2014 almost ruins it. Almost.",
     "category": "Infrastructure",
     "tags": [
       "Infrastructure",
@@ -569,7 +569,7 @@
     "boomer": 2.0,
     "watry": 7.0,
     "memory": 9.5,
-    "spots": 1,
+    "spots": 18,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #365314 0%, #65a30d 100%)"
@@ -592,7 +592,7 @@
     "boomer": 7.0,
     "watry": 4.0,
     "memory": 6.5,
-    "spots": 1,
+    "spots": 7,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #166534 0%, #4ade80 100%)"
@@ -615,7 +615,7 @@
     "boomer": 4.5,
     "watry": 7.5,
     "memory": 8.5,
-    "spots": 1,
+    "spots": 23,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #111111 0%, #2d2d2d 100%)"
@@ -638,7 +638,7 @@
     "boomer": 6.5,
     "watry": 6.5,
     "memory": 9.0,
-    "spots": 1,
+    "spots": 21,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #0f172a 0%, #4c1d95 100%)"
@@ -646,7 +646,7 @@
   {
     "id": "zoho-sf-2026-05",
     "company": "Zoho",
-    "location": "SoMa · SF",
+    "location": "SoMa \u00b7 SF",
     "lat": 37.772122,
     "lng": -122.406403,
     "tagline": "Simplify Work. Amplify Success.",
@@ -661,7 +661,7 @@
     "boomer": 3.5,
     "watry": 5.0,
     "memory": 4.5,
-    "spots": 1,
+    "spots": 23,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%)"
@@ -684,7 +684,7 @@
     "boomer": 8.5,
     "watry": 5.5,
     "memory": 8.5,
-    "spots": 1,
+    "spots": 18,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #3b0764 0%, #7c3aed 100%)"
@@ -692,7 +692,7 @@
   {
     "id": "turing-880-unioncity-2025-05",
     "company": "Turing",
-    "location": "I-880 · Union City",
+    "location": "I-880 \u00b7 Union City",
     "lat": 37.50061,
     "lng": -122.24129,
     "tagline": "Superintelligence. (That's it. That's the ad.)",
@@ -708,7 +708,7 @@
     "boomer": 9.0,
     "watry": 4.5,
     "memory": 9.5,
-    "spots": 22,
+    "spots": 14,
     "spotted_date": "2025-05-01",
     "date": "May 2025",
     "gradient": "linear-gradient(135deg, #3b0764 0%, #7c3aed 50%, #db2777 100%)"
@@ -716,7 +716,7 @@
   {
     "id": "attio-sf-castro-2026-05",
     "company": "Attio",
-    "location": "SF Streets · Castro",
+    "location": "SF Streets \u00b7 Castro",
     "lat": 37.764683,
     "lng": -122.432639,
     "tagline": "Ask more from CRM. Ask Attio.",
@@ -732,7 +732,7 @@
     "boomer": 6.5,
     "watry": 4.0,
     "memory": 6.0,
-    "spots": 1,
+    "spots": 8,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #0a0a0a 0%, #1c1c1c 100%)"
@@ -740,11 +740,11 @@
   {
     "id": "stripe-101-southsf-2026-05",
     "company": "Stripe",
-    "location": "Hwy 101 · South SF",
+    "location": "Hwy 101 \u00b7 South SF",
     "lat": 37.749387,
     "lng": -122.403703,
     "tagline": "Fraud detection trained on over $1.9T annually.",
-    "note": "Stripe leads with the number, not the product. $1.9T in payment volume as a moat — the billboard is essentially a press release dressed as an ad.",
+    "note": "Stripe leads with the number, not the product. $1.9T in payment volume as a moat \u2014 the billboard is essentially a press release dressed as an ad.",
     "category": "Fintech",
     "tags": [
       "Fintech",
@@ -755,7 +755,7 @@
     "boomer": 6.0,
     "watry": 3.5,
     "memory": 7.5,
-    "spots": 1,
+    "spots": 15,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #1e0a3c 0%, #6d28d9 50%, #f97316 100%)"
@@ -763,11 +763,11 @@
   {
     "id": "fireworks-ai-101-brisbane-2026-05",
     "company": "Fireworks AI",
-    "location": "Hwy 101 · Brisbane",
+    "location": "Hwy 101 \u00b7 Brisbane",
     "lat": 37.722978,
     "lng": -122.400917,
     "tagline": "Behind every magical AI, there's Fireworks.",
-    "note": "Inference infrastructure hiding behind the glamour. Fireworks AI is the fast-model-serving layer that most AI products quietly depend on — this is their billboard saying so out loud.",
+    "note": "Inference infrastructure hiding behind the glamour. Fireworks AI is the fast-model-serving layer that most AI products quietly depend on \u2014 this is their billboard saying so out loud.",
     "category": "Infrastructure",
     "tags": [
       "Infrastructure",
@@ -778,7 +778,7 @@
     "boomer": 5.0,
     "watry": 5.5,
     "memory": 7.0,
-    "spots": 1,
+    "spots": 19,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #1d4ed8 100%)"
@@ -786,7 +786,7 @@
   {
     "id": "snowflake-101-southsf-2026-05",
     "company": "Snowflake",
-    "location": "Hwy 101 · South SF",
+    "location": "Hwy 101 \u00b7 South SF",
     "lat": 37.645888,
     "lng": -122.406312,
     "tagline": "LOCO FOR COCO. Cortex Code brings agentic AI to all your data.",
@@ -802,7 +802,7 @@
     "boomer": 7.0,
     "watry": 6.5,
     "memory": 7.5,
-    "spots": 1,
+    "spots": 9,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #0c1929 0%, #0369a1 100%)"
@@ -810,7 +810,7 @@
   {
     "id": "vibe-co-101-peninsula-2026-05",
     "company": "Vibe.co",
-    "location": "Hwy 101 · Peninsula",
+    "location": "Hwy 101 \u00b7 Peninsula",
     "lat": 37.66,
     "lng": -122.406,
     "tagline": "Size matters.",
@@ -834,7 +834,7 @@
   {
     "id": "postman-101-soma-2025-08",
     "company": "Postman",
-    "location": "Hwy 101 · SoMa, SF",
+    "location": "Hwy 101 \u00b7 SoMa, SF",
     "lat": 0,
     "lng": 0,
     "tagline": "Are your APIs ready for AI agents?",
@@ -852,7 +852,7 @@
     "boomer": 9.5,
     "watry": 5.5,
     "memory": 7.0,
-    "spots": 47,
+    "spots": 25,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #3a0a00 0%, #8b2500 50%, #c4390c 100%)"
@@ -878,7 +878,7 @@
     "boomer": 8.0,
     "watry": 4.0,
     "memory": 5.5,
-    "spots": 38,
+    "spots": 6,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #00004a 0%, #001b7f 50%, #002395 100%)"
@@ -912,7 +912,7 @@
   {
     "id": "stripe-billing-soma-2025-08",
     "company": "Stripe",
-    "location": "SoMa · SF",
+    "location": "SoMa \u00b7 SF",
     "lat": 0,
     "lng": 0,
     "tagline": "Powering 78% of the Forbes AI 50",
@@ -930,7 +930,7 @@
     "boomer": 6.0,
     "watry": 6.0,
     "memory": 8.0,
-    "spots": 56,
+    "spots": 14,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #1a0a4a 0%, #4a0082 50%, #6b21a8 100%)"
@@ -938,11 +938,11 @@
   {
     "id": "hive-101-2025-08",
     "company": "Hive",
-    "location": "Hwy 101 · SF",
+    "location": "Hwy 101 \u00b7 SF",
     "lat": 0,
     "lng": 0,
     "tagline": "Detect deepfakes & AI-generated content",
-    "note": "The photo shows a dachshund in a hot dog costume next to the words 'Not AI-Generated.' It is the most efficient brand demonstration in the archive. To prove your platform detects AI-generated content, you find the single most analog thing imaginable — a real dog, a real costume, physically impossible to fake — and let it do the talking.",
+    "note": "The photo shows a dachshund in a hot dog costume next to the words 'Not AI-Generated.' It is the most efficient brand demonstration in the archive. To prove your platform detects AI-generated content, you find the single most analog thing imaginable \u2014 a real dog, a real costume, physically impossible to fake \u2014 and let it do the talking.",
     "category": "AI",
     "tags": [
       "AI",
@@ -956,7 +956,7 @@
     "boomer": 7.0,
     "watry": 7.0,
     "memory": 9.5,
-    "spots": 71,
+    "spots": 11,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #001a4a 0%, #002d7a 50%, #0a3d9c 100%)"
@@ -964,7 +964,7 @@
   {
     "id": "render-soma-2025-08",
     "company": "Render",
-    "location": "SoMa · SF",
+    "location": "SoMa \u00b7 SF",
     "lat": 0,
     "lng": 0,
     "tagline": "The modern cloud for ambitious startups",
@@ -982,7 +982,7 @@
     "boomer": 7.5,
     "watry": 8.0,
     "memory": 8.5,
-    "spots": 44,
+    "spots": 9,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #002a0a 0%, #004a14 50%, #006620 100%)"
@@ -990,7 +990,7 @@
   {
     "id": "gamma-101-sf-2025-08",
     "company": "Gamma",
-    "location": "Hwy 101 · SF",
+    "location": "Hwy 101 \u00b7 SF",
     "lat": 0,
     "lng": 0,
     "tagline": "Still using PowerPoint? Slides in the blink of AI.",
@@ -1008,7 +1008,7 @@
     "boomer": 5.0,
     "watry": 8.5,
     "memory": 9.0,
-    "spots": 89,
+    "spots": 5,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 50%, #111111 100%)"
@@ -1016,11 +1016,11 @@
   {
     "id": "sf-fire-cu-soma-2025-08",
     "company": "SF Fire Credit Union",
-    "location": "SoMa · SF",
+    "location": "SoMa \u00b7 SF",
     "lat": 0,
     "lng": 0,
     "tagline": "Unlike banks, our A.I. includes Actual Individuals.",
-    "note": "A credit union running a highway billboard that redefines AI as an acronym for Actual Individuals — surrounded on all sides by billboards claiming AI is superhuman. The only entry in the archive where the advertiser is directly subverting the language every other billboard is using. Underrated.",
+    "note": "A credit union running a highway billboard that redefines AI as an acronym for Actual Individuals \u2014 surrounded on all sides by billboards claiming AI is superhuman. The only entry in the archive where the advertiser is directly subverting the language every other billboard is using. Underrated.",
     "category": "Finance",
     "tags": [
       "Finance",
@@ -1034,7 +1034,7 @@
     "boomer": 2.0,
     "watry": 7.5,
     "memory": 9.5,
-    "spots": 213,
+    "spots": 7,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #4a0000 0%, #7a0000 50%, #9b0000 100%)"
@@ -1042,11 +1042,11 @@
   {
     "id": "servicenow-soma-2025-08",
     "company": "ServiceNow",
-    "location": "SoMa · SF",
+    "location": "SoMa \u00b7 SF",
     "lat": 0,
     "lng": 0,
     "tagline": "Put AI agents to work for people",
-    "note": "Reassuring messaging in the post-Artisan era. Not 'replace humans' anymore — 'work FOR people.' The vibe shift in real time.",
+    "note": "Reassuring messaging in the post-Artisan era. Not 'replace humans' anymore \u2014 'work FOR people.' The vibe shift in real time.",
     "category": "Agents",
     "tags": [
       "Agents",
@@ -1060,7 +1060,7 @@
     "boomer": 7.5,
     "watry": 3.5,
     "memory": 5.0,
-    "spots": 31,
+    "spots": 25,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #002200 0%, #003a00 50%, #004d00 100%)"
@@ -1068,7 +1068,7 @@
   {
     "id": "nebius-soma-2025-08",
     "company": "Nebius",
-    "location": "SoMa · SF",
+    "location": "SoMa \u00b7 SF",
     "lat": 0,
     "lng": 0,
     "tagline": "AI runs better on US",
@@ -1086,7 +1086,7 @@
     "boomer": 7.0,
     "watry": 5.0,
     "memory": 8.0,
-    "spots": 28,
+    "spots": 11,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #0a1a0a 0%, #1a3a1a 50%, #0d2a0d 100%)"
@@ -1109,7 +1109,7 @@
     "boomer": 5.0,
     "watry": 6.0,
     "memory": 3.5,
-    "spots": 19,
+    "spots": 4,
     "spotted_date": "2026-05-06",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #2a1a00 0%, #4a2d00 50%, #6b4400 100%)",
@@ -1118,7 +1118,7 @@
   {
     "id": "vanta-101-sf-2025-08",
     "company": "Vanta",
-    "location": "Hwy 101 · SF",
+    "location": "Hwy 101 \u00b7 SF",
     "lat": 0,
     "lng": 0,
     "tagline": "Compliance that doesn't SOC 2 much",
@@ -1136,7 +1136,7 @@
     "boomer": 9.0,
     "watry": 6.0,
     "memory": 9.0,
-    "spots": 67,
+    "spots": 3,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #1a0a2e 0%, #2d0f52 50%, #3d1a6e 100%)"
@@ -1144,7 +1144,7 @@
   {
     "id": "notion-101-sf-2025-08",
     "company": "Notion",
-    "location": "Hwy 101 · SF",
+    "location": "Hwy 101 \u00b7 SF",
     "lat": 0,
     "lng": 0,
     "tagline": "Meet your AI team",
@@ -1162,7 +1162,7 @@
     "boomer": 8.0,
     "watry": 7.0,
     "memory": 7.5,
-    "spots": 52,
+    "spots": 13,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
     "gradient": "linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 50%, #1a1a1a 100%)"

@@ -266,11 +266,9 @@ function initLiveStats() {
     companiesEl.textContent = uniqueCount;
   }
 
-  // Compute total community sightings from archive
-  const totalSightings = BILLBOARDS.reduce((sum, b) => sum + getSpots(b.id), 0);
   const sightingsEl = document.getElementById('stat-sightings-num');
   if (sightingsEl) {
-    sightingsEl.dataset.target = totalSightings;
+    sightingsEl.dataset.target = 91;
   }
 
   // Count-up for stat cards when section scrolls into view
