@@ -3,9 +3,10 @@ let currentModalId = null;
 let _miniMap = null;
 let _miniMarker = null;
 
-function openModal(id) {
+// Pure DOM update — no history side-effects. Returns false if id is invalid.
+function _applyModal(id) {
   const b = getBillboard(id);
-  if (!b) return;
+  if (!b) return false;
   currentModalId = id;
   document.getElementById('modal').dataset.id = id;
 
@@ -38,22 +39,47 @@ function openModal(id) {
   document.getElementById('modal-date-tag').textContent = b.date;
   document.getElementById('modal-company').textContent = b.company;
   document.getElementById('modal-location-line').textContent = b.location;
-  document.getElementById('modal-tagline').textContent = '"' + b.tagline + '"';
+  document.getElementById('modal-tagline').textContent = '“' + b.tagline + '”';
   document.getElementById('modal-note').textContent = b.note;
 
-  // Spots
   updateModalSpots(id);
-
-  // Other sightings by same company
   renderModalOther(b);
-
-  // Mini map
   initMiniMap(b);
 
-  // Open overlay
   document.getElementById('modal-overlay').classList.add('open');
   document.body.style.overflow = 'hidden';
+  document.title = b.company + ' · ' + b.location + ' — The Valley of AI';
+  return true;
 }
+
+// Pure DOM close — no history side-effects.
+function _closeModalUI() {
+  document.getElementById('modal-overlay').classList.remove('open');
+  document.body.style.overflow = '';
+  currentModalId = null;
+  document.title = 'The Valley of AI';
+}
+
+// Public — opens modal and pushes a history entry.
+function openModal(id) {
+  if (!_applyModal(id)) return;
+  history.pushState({ billboardId: id }, '', '/billboard/' + id);
+}
+
+// Public — closes modal and pushes back to root.
+function closeModal() {
+  _closeModalUI();
+  history.pushState({}, '', '/');
+}
+
+// Back / forward navigation syncs UI to URL without touching history.
+window.addEventListener('popstate', function (e) {
+  if (e.state && e.state.billboardId) {
+    _applyModal(e.state.billboardId);
+  } else {
+    _closeModalUI();
+  }
+});
 
 function initMiniMap(b) {
   const el = document.getElementById('modal-mini-map');
@@ -151,20 +177,6 @@ function updateModalSpots(id) {
   if (capNote) capNote.style.display = spotted ? 'block' : 'none';
 }
 
-function closeModal() {
-  document.getElementById('modal-overlay').classList.remove('open');
-  document.body.style.overflow = '';
-  currentModalId = null;
-}
-
-async function spotFromModal() {
-  if (currentModalId === null) return;
-  if (hasSpotted(currentModalId)) return;
-  const newCount = await addSpot(currentModalId);
-  updateModalSpots(currentModalId);
-  syncCardSpotCount(currentModalId, newCount);
-}
-
 // Close on overlay click (outside modal)
 document.getElementById('modal-overlay').addEventListener('click', function (e) {
   if (e.target === this) closeModal();
@@ -174,3 +186,11 @@ document.getElementById('modal-overlay').addEventListener('click', function (e) 
 document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape') closeModal();
 });
+
+async function spotFromModal() {
+  if (currentModalId === null) return;
+  if (hasSpotted(currentModalId)) return;
+  const newCount = await addSpot(currentModalId);
+  updateModalSpots(currentModalId);
+  syncCardSpotCount(currentModalId, newCount);
+}

@@ -371,4 +371,18 @@ dataReady.then(() => {
     archivedEl.dataset.target = BILLBOARDS.length;
     animateCountUp(archivedEl);
   }
+
+  // Deep-link routing — open modal if URL is /billboard/:id
+  const routeMatch = window.location.pathname.match(/^\/billboard\/([^/]+)\/?$/);
+  if (routeMatch) {
+    const id = decodeURIComponent(routeMatch[1]);
+    if (getBillboard(id)) {
+      // replaceState so the initial entry has a state object for popstate
+      history.replaceState({ billboardId: id }, '', '/billboard/' + id);
+      _applyModal(id);
+    } else {
+      // Unknown ID — silently drop back to root
+      history.replaceState({}, '', '/');
+    }
+  }
 });
