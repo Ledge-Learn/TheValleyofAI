@@ -6,6 +6,7 @@
     "fix-rotation": "node scripts/fix-image-rotation.js"
   },
   "dependencies": {
+    "@netlify/blobs": "^10.7.5",
     "busboy": "^1.6.0",
     "sharp": "^0.33.0"
   }

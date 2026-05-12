@@ -105,10 +105,10 @@ function closeModal() {
   currentModalId = null;
 }
 
-function spotFromModal() {
+async function spotFromModal() {
   if (currentModalId === null) return;
   if (hasSpotted(currentModalId)) return;
-  const newCount = addSpot(currentModalId);
+  const newCount = await addSpot(currentModalId);
   updateModalSpots(currentModalId);
   syncCardSpotCount(currentModalId, newCount);
 }

@@ -5,6 +5,7 @@ function buzzPin(score) {
 }
 
 let BILLBOARDS = [];
+let serverSpots = {};
 
 async function loadBillboards() {
   const res = await fetch('data/billboards.json');
@@ -15,16 +16,28 @@ async function loadBillboards() {
   }));
 }
 
-const dataReady = loadBillboards();
+async function loadServerSpots() {
+  try {
+    const res = await fetch('/.netlify/functions/spot');
+    if (res.ok) {
+      const data = await res.json();
+      serverSpots = data.counts || {};
+    }
+  } catch {
+    // Local dev or offline — fall back to JSON defaults silently
+  }
+}
+
+const dataReady = Promise.all([loadBillboards(), loadServerSpots()]);
 
 function getBillboard(id) {
   return BILLBOARDS.find(b => b.id === id);
 }
 
 function getSpots(id) {
-  const stored = localStorage.getItem('spots_' + id);
+  if (id in serverSpots) return serverSpots[id];
   const b = getBillboard(id);
-  return stored !== null ? parseInt(stored) : (b ? b.spots : 0);
+  return b ? b.spots : 0;
 }
 
 function getSpotted() {
@@ -44,19 +57,24 @@ function markSpotted(id) {
   }
 }
 
-function addSpot(id) {
+async function addSpot(id) {
   if (hasSpotted(id)) return getSpots(id);
+  try {
+    const res = await fetch('/.netlify/functions/spot', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id }),
+    });
+    if (res.ok) {
+      const data = await res.json();
+      serverSpots[id] = data.count;
+      markSpotted(id);
+      return data.count;
+    }
+  } catch {}
+  // Fallback: local-only increment if function unreachable
   const current = getSpots(id);
-  localStorage.setItem('spots_' + id, current + 1);
+  serverSpots[id] = current + 1;
   markSpotted(id);
   return current + 1;
-}
-
-function removeSpot(id) {
-  const current = getSpots(id);
-  const next = Math.max(0, current - 1);
-  localStorage.setItem('spots_' + id, next);
-  const arr = getSpotted().filter(x => x !== id);
-  localStorage.setItem('valley-of-ai-spotted', JSON.stringify(arr));
-  return next;
 }
