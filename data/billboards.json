@@ -1140,9 +1140,9 @@
   {
     "id": "ringcentral-101-2025-08",
     "company": "RingCentral",
-    "location": "SF Streets",
-    "lat": 0,
-    "lng": 0,
+    "location": "Mission · SF",
+    "lat": 37.74969,
+    "lng": -122.40360,
     "tagline": "Goodbye missed calls. Hello, AI Receptionist.",
     "note": "An AI receptionist is just the 2026 version of phone tree hell with better marketing.",
     "category": "AI",
