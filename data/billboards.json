@@ -20,7 +20,8 @@
     "spots": 21,
     "spotted_date": "2025-05-01",
     "date": "May 2025",
-    "gradient": "linear-gradient(135deg, #1a0a3a 0%, #3d0a8c 50%, #6600cc 100%)"
+    "gradient": "linear-gradient(135deg, #1a0a3a 0%, #3d0a8c 50%, #6600cc 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "braintrust-101n-2025-05",
@@ -43,7 +44,8 @@
     "spots": 4,
     "spotted_date": "2025-05-01",
     "date": "May 2025",
-    "gradient": "linear-gradient(135deg, #0a1428 0%, #0d2144 50%, #0a1830 100%)"
+    "gradient": "linear-gradient(135deg, #0a1428 0%, #0d2144 50%, #0a1830 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "medable-101n-southsf-2025-05",
@@ -66,7 +68,8 @@
     "spots": 1,
     "spotted_date": "2025-05-01",
     "date": "May 2025",
-    "gradient": "linear-gradient(135deg, #001a2e 0%, #002a4a 50%, #001e3a 100%)"
+    "gradient": "linear-gradient(135deg, #001a2e 0%, #002a4a 50%, #001e3a 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "vercel-outer-sunset-sf-2026-05",
@@ -89,7 +92,8 @@
     "spots": 24,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #0a0a0a 0%, #1c1c1c 50%, #0a0a0a 100%)"
+    "gradient": "linear-gradient(135deg, #0a0a0a 0%, #1c1c1c 50%, #0a0a0a 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "artisan-busshelt-90days-sf-2026-05",
@@ -112,7 +116,8 @@
     "spots": 9,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #1a0030 0%, #3d0080 50%, #6600cc 100%)"
+    "gradient": "linear-gradient(135deg, #1a0030 0%, #3d0080 50%, #6600cc 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "deel-soma-sf-2026-05",
@@ -135,7 +140,8 @@
     "spots": 8,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #10002b 0%, #3c096c 50%, #5a189a 100%)"
+    "gradient": "linear-gradient(135deg, #10002b 0%, #3c096c 50%, #5a189a 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "google-sf-streets-2026-05",
@@ -158,7 +164,8 @@
     "spots": 8,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #1a4080 0%, #0d5a1a 35%, #8a6a00 65%, #8a1a10 100%)"
+    "gradient": "linear-gradient(135deg, #1a4080 0%, #0d5a1a 35%, #8a6a00 65%, #8a1a10 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "artisan-busshelt-5tools-sf-2026-05",
@@ -181,7 +188,8 @@
     "spots": 5,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #1a0030 0%, #3d0080 50%, #6600cc 100%)"
+    "gradient": "linear-gradient(135deg, #1a0030 0%, #3d0080 50%, #6600cc 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "agen-co-rapid-sf-2026-05",
@@ -204,7 +212,8 @@
     "spots": 24,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #0a0a14 0%, #141428 50%, #0a0a1c 100%)"
+    "gradient": "linear-gradient(135deg, #0a0a14 0%, #141428 50%, #0a0a1c 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "artisan-cookunity-rapid-sf-2026-05",
@@ -227,7 +236,8 @@
     "spots": 4,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #1a0030 0%, #3d0080 50%, #6600cc 100%)"
+    "gradient": "linear-gradient(135deg, #1a0030 0%, #3d0080 50%, #6600cc 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "brex-castro-sf-2026-05",
@@ -250,7 +260,8 @@
     "spots": 22,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #5a0a00 0%, #c41400 50%, #f53800 100%)"
+    "gradient": "linear-gradient(135deg, #5a0a00 0%, #c41400 50%, #f53800 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "baseten-rapid-sf-2026-05",
@@ -273,7 +284,8 @@
     "spots": 24,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #4a0a28 0%, #8a1a50 50%, #cc3388 100%)"
+    "gradient": "linear-gradient(135deg, #4a0a28 0%, #8a1a50 50%, #cc3388 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "attio-rapid-sf-2026-05",
@@ -296,7 +308,8 @@
     "spots": 18,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0f0f0f 100%)"
+    "gradient": "linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0f0f0f 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "posthog-muni-sf-2026-05",
@@ -319,7 +332,8 @@
     "spots": 3,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #7a5000 0%, #b87800 50%, #f0a020 100%)"
+    "gradient": "linear-gradient(135deg, #7a5000 0%, #b87800 50%, #f0a020 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "braintrust-muni-bus-sf-2026-05",
@@ -342,7 +356,8 @@
     "spots": 19,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #0a1428 0%, #0d2144 50%, #0a1830 100%)"
+    "gradient": "linear-gradient(135deg, #0a1428 0%, #0d2144 50%, #0a1830 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "atlassian-rovo-101-millbrae-2026-05",
@@ -365,7 +380,8 @@
     "spots": 14,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #0052cc 0%, #0ea5e9 100%)"
+    "gradient": "linear-gradient(135deg, #0052cc 0%, #0ea5e9 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "avalara-101-millbrae-2026-05",
@@ -388,7 +404,8 @@
     "spots": 2,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #c2410c 0%, #f97316 100%)"
+    "gradient": "linear-gradient(135deg, #c2410c 0%, #f97316 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "superannotate-101-peninsula-2026-05",
@@ -411,7 +428,8 @@
     "spots": 1,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #be185d 0%, #f43f5e 100%)"
+    "gradient": "linear-gradient(135deg, #be185d 0%, #f43f5e 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "lovable-101-peninsula-2026-05",
@@ -434,7 +452,8 @@
     "spots": 3,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #1e1b4b 0%, #7c3aed 100%)"
+    "gradient": "linear-gradient(135deg, #1e1b4b 0%, #7c3aed 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "c3ai-101-peninsula-2026-05",
@@ -457,7 +476,8 @@
     "spots": 7,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #111827 0%, #374151 100%)"
+    "gradient": "linear-gradient(135deg, #111827 0%, #374151 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "vercel-101-peninsula-2026-05",
@@ -480,7 +500,8 @@
     "spots": 8,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%)"
+    "gradient": "linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "sigma-101-peninsula-2026-05",
@@ -503,7 +524,8 @@
     "spots": 17,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%)"
+    "gradient": "linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "writer-101-sf-2026-05",
@@ -526,7 +548,8 @@
     "spots": 20,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #14532d 0%, #166534 100%)"
+    "gradient": "linear-gradient(135deg, #14532d 0%, #166534 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "twilio-soma-sf-2026-05",
@@ -549,7 +572,8 @@
     "spots": 1,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #7f1d1d 0%, #dc2626 100%)"
+    "gradient": "linear-gradient(135deg, #7f1d1d 0%, #dc2626 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "kong-sf-2026-05",
@@ -572,7 +596,8 @@
     "spots": 18,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #365314 0%, #65a30d 100%)"
+    "gradient": "linear-gradient(135deg, #365314 0%, #65a30d 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "metronome-sf-2026-05",
@@ -595,7 +620,8 @@
     "spots": 7,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #166534 0%, #4ade80 100%)"
+    "gradient": "linear-gradient(135deg, #166534 0%, #4ade80 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "notion-sf-streets-2026-05",
@@ -618,7 +644,8 @@
     "spots": 23,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #111111 0%, #2d2d2d 100%)"
+    "gradient": "linear-gradient(135deg, #111111 0%, #2d2d2d 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "linear-sf-2026-05",
@@ -641,7 +668,8 @@
     "spots": 21,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #0f172a 0%, #4c1d95 100%)"
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #4c1d95 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "zoho-sf-2026-05",
@@ -664,7 +692,8 @@
     "spots": 23,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%)"
+    "gradient": "linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "factory-ai-sf-2026-05",
@@ -687,7 +716,8 @@
     "spots": 18,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #3b0764 0%, #7c3aed 100%)"
+    "gradient": "linear-gradient(135deg, #3b0764 0%, #7c3aed 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "turing-880-unioncity-2025-05",
@@ -711,7 +741,8 @@
     "spots": 14,
     "spotted_date": "2025-05-01",
     "date": "May 2025",
-    "gradient": "linear-gradient(135deg, #3b0764 0%, #7c3aed 50%, #db2777 100%)"
+    "gradient": "linear-gradient(135deg, #3b0764 0%, #7c3aed 50%, #db2777 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "attio-sf-castro-2026-05",
@@ -735,7 +766,8 @@
     "spots": 8,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #0a0a0a 0%, #1c1c1c 100%)"
+    "gradient": "linear-gradient(135deg, #0a0a0a 0%, #1c1c1c 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "stripe-101-southsf-2026-05",
@@ -758,7 +790,8 @@
     "spots": 15,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #1e0a3c 0%, #6d28d9 50%, #f97316 100%)"
+    "gradient": "linear-gradient(135deg, #1e0a3c 0%, #6d28d9 50%, #f97316 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "fireworks-ai-101-brisbane-2026-05",
@@ -781,7 +814,8 @@
     "spots": 19,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #1d4ed8 100%)"
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #1d4ed8 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "snowflake-101-southsf-2026-05",
@@ -805,7 +839,8 @@
     "spots": 9,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #0c1929 0%, #0369a1 100%)"
+    "gradient": "linear-gradient(135deg, #0c1929 0%, #0369a1 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "vibe-co-101-peninsula-2026-05",
@@ -829,7 +864,8 @@
     "spots": 1,
     "spotted_date": "2026-05-02",
     "date": "May 2026",
-    "gradient": "linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%)"
+    "gradient": "linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "postman-101-soma-2025-08",
@@ -855,7 +891,8 @@
     "spots": 25,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
-    "gradient": "linear-gradient(135deg, #3a0a00 0%, #8b2500 50%, #c4390c 100%)"
+    "gradient": "linear-gradient(135deg, #3a0a00 0%, #8b2500 50%, #c4390c 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "okta-sf-streets-2025-08",
@@ -881,7 +918,8 @@
     "spots": 6,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
-    "gradient": "linear-gradient(135deg, #00004a 0%, #001b7f 50%, #002395 100%)"
+    "gradient": "linear-gradient(135deg, #00004a 0%, #001b7f 50%, #002395 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "promptql-sf-streets-2025-08",
@@ -907,7 +945,8 @@
     "spots": 23,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
-    "gradient": "linear-gradient(135deg, #002200 0%, #003d00 50%, #005200 100%)"
+    "gradient": "linear-gradient(135deg, #002200 0%, #003d00 50%, #005200 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "stripe-billing-soma-2025-08",
@@ -933,7 +972,8 @@
     "spots": 14,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
-    "gradient": "linear-gradient(135deg, #1a0a4a 0%, #4a0082 50%, #6b21a8 100%)"
+    "gradient": "linear-gradient(135deg, #1a0a4a 0%, #4a0082 50%, #6b21a8 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "hive-101-2025-08",
@@ -959,7 +999,8 @@
     "spots": 11,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
-    "gradient": "linear-gradient(135deg, #001a4a 0%, #002d7a 50%, #0a3d9c 100%)"
+    "gradient": "linear-gradient(135deg, #001a4a 0%, #002d7a 50%, #0a3d9c 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "render-soma-2025-08",
@@ -985,7 +1026,8 @@
     "spots": 9,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
-    "gradient": "linear-gradient(135deg, #002a0a 0%, #004a14 50%, #006620 100%)"
+    "gradient": "linear-gradient(135deg, #002a0a 0%, #004a14 50%, #006620 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "gamma-101-sf-2025-08",
@@ -1011,7 +1053,8 @@
     "spots": 5,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
-    "gradient": "linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 50%, #111111 100%)"
+    "gradient": "linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 50%, #111111 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "sf-fire-cu-soma-2025-08",
@@ -1037,7 +1080,8 @@
     "spots": 7,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
-    "gradient": "linear-gradient(135deg, #4a0000 0%, #7a0000 50%, #9b0000 100%)"
+    "gradient": "linear-gradient(135deg, #4a0000 0%, #7a0000 50%, #9b0000 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "servicenow-soma-2025-08",
@@ -1063,7 +1107,8 @@
     "spots": 25,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
-    "gradient": "linear-gradient(135deg, #002200 0%, #003a00 50%, #004d00 100%)"
+    "gradient": "linear-gradient(135deg, #002200 0%, #003a00 50%, #004d00 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "nebius-soma-2025-08",
@@ -1089,7 +1134,8 @@
     "spots": 11,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
-    "gradient": "linear-gradient(135deg, #0a1a0a 0%, #1a3a1a 50%, #0d2a0d 100%)"
+    "gradient": "linear-gradient(135deg, #0a1a0a 0%, #1a3a1a 50%, #0d2a0d 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "ringcentral-101-2025-08",
@@ -1113,7 +1159,8 @@
     "spotted_date": "2026-05-06",
     "date": "May 2026",
     "gradient": "linear-gradient(135deg, #2a1a00 0%, #4a2d00 50%, #6b4400 100%)",
-    "pinned": true
+    "pinned": true,
+    "pinColor": "#F04E23"
   },
   {
     "id": "vanta-101-sf-2025-08",
@@ -1139,7 +1186,8 @@
     "spots": 3,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
-    "gradient": "linear-gradient(135deg, #1a0a2e 0%, #2d0f52 50%, #3d1a6e 100%)"
+    "gradient": "linear-gradient(135deg, #1a0a2e 0%, #2d0f52 50%, #3d1a6e 100%)",
+    "pinColor": "#F04E23"
   },
   {
     "id": "notion-101-sf-2025-08",
@@ -1165,6 +1213,175 @@
     "spots": 13,
     "spotted_date": "2025-08-06",
     "date": "Aug 2025",
-    "gradient": "linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 50%, #1a1a1a 100%)"
+    "gradient": "linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 50%, #1a1a1a 100%)",
+    "pinColor": "#F04E23"
+  },
+  {
+    "id": "agen-co-101-southsf-2026-05",
+    "company": "Agen.co",
+    "location": "Hwy 101 \u00b7 South SF",
+    "lat": 37.64243,
+    "lng": -122.40602,
+    "tagline": "Bridging the connectivity gap.",
+    "note": "The same creative as their SF Streets bus shelter, but on the highway with a fog bank rolling in behind it. In the mist, the minimalism earns its keep \u2014 AGENTS and APPS floating against grey sky like a slide deck nobody asked for.",
+    "category": "Agents",
+    "tags": [
+      "Agents",
+      "Hwy 101"
+    ],
+    "photo": "IMG_6028.jpg",
+    "pinColor": "#8ab4d4",
+    "buzzword": 8.5,
+    "boomer": 10.0,
+    "watry": 2.0,
+    "memory": 7.5,
+    "spots": 9,
+    "spotted_date": "2026-05-01",
+    "date": "May 2026",
+    "gradient": "linear-gradient(135deg, #0a0a14 0%, #141428 50%, #0a0a1c 100%)"
+  },
+  {
+    "id": "vultr-101-southsf-2026-05",
+    "company": "Vultr",
+    "location": "Hwy 101 \u00b7 South SF",
+    "lat": 37.64265,
+    "lng": -122.40605,
+    "tagline": "Global Cloud Infrastructure for AI Innovators.",
+    "note": "Solid electric blue on a grey morning. Vultr is pitching the people who will eventually bill their GPU usage to a startup's runway. The audience is precise and they know it.",
+    "category": "Infrastructure",
+    "tags": [
+      "Infrastructure",
+      "Hwy 101"
+    ],
+    "photo": "IMG_6029.jpeg",
+    "pinColor": "#0055cc",
+    "buzzword": 6.0,
+    "boomer": 7.0,
+    "watry": 5.5,
+    "memory": 6.0,
+    "spots": 11,
+    "spotted_date": "2026-05-01",
+    "date": "May 2026",
+    "gradient": "linear-gradient(135deg, #001f6e 0%, #0044cc 50%, #0033aa 100%)"
+  },
+  {
+    "id": "coreweave-101-brisbane-2026-05",
+    "company": "CoreWeave",
+    "location": "Hwy 101 \u00b7 Brisbane",
+    "lat": 37.66555,
+    "lng": -122.39683,
+    "tagline": "The world's best AI? Yeah, it runs on CoreWeave.",
+    "note": "A confident answer to a question nobody asked aloud. 'The world's best AI' is deliberately unnamed \u2014 the billboard assumes you already know which one they mean, and that you've been paying attention. The period after CoreWeave is doing real work.",
+    "category": "Infrastructure",
+    "tags": [
+      "Infrastructure",
+      "Hwy 101"
+    ],
+    "photo": "IMG_6034.jpg",
+    "pinColor": "#1a4a8a",
+    "buzzword": 5.0,
+    "boomer": 4.0,
+    "watry": 7.5,
+    "memory": 8.5,
+    "spots": 7,
+    "spotted_date": "2026-05-01",
+    "date": "May 2026",
+    "gradient": "linear-gradient(135deg, #0a1a3a 0%, #1a3a6e 50%, #0d2650 100%)"
+  },
+  {
+    "id": "chatgpt-sf-streets-2026-05",
+    "company": "ChatGPT",
+    "location": "SF Streets",
+    "lat": 37.76956,
+    "lng": -122.41178,
+    "tagline": "Untitled",
+    "note": "A photorealistic billboard of a Victorian balcony scene that blends into the actual Victorian buildings behind it. No pitch, no claim, no call to action. Just the word ChatGPT over a cinematic shot of SF life. The most confident ad in the archive \u2014 brand recognition as the entire strategy.",
+    "category": "AI",
+    "tags": [
+      "AI",
+      "SF Streets"
+    ],
+    "photo": "IMG_6060.jpg",
+    "pinColor": "#10a37f",
+    "buzzword": 1.5,
+    "boomer": 1.5,
+    "watry": 9.5,
+    "memory": 9.5,
+    "spots": 8,
+    "spotted_date": "2026-05-01",
+    "date": "May 2026",
+    "gradient": "linear-gradient(135deg, #0a0f1e 0%, #1a2540 50%, #0d1830 100%)"
+  },
+  {
+    "id": "airbyte-buswrap-sf-2026-05",
+    "company": "Airbyte",
+    "location": "SF Streets \u00b7 Bus Wrap",
+    "lat": 37.77989,
+    "lng": -122.42013,
+    "tagline": "Our board said 'agents', so we delivered.",
+    "note": "The whole bus is AGENTS. The subtext \u2014 'Our board said agents, so we delivered' \u2014 is the most candid admission in the archive. Not a product vision. Not a customer insight. A board meeting outcome, wrapped around public transit.",
+    "category": "Agents",
+    "tags": [
+      "Agents",
+      "SF Streets"
+    ],
+    "photo": "IMG_6076.jpg",
+    "pinColor": "#cc2200",
+    "buzzword": 9.0,
+    "boomer": 9.5,
+    "watry": 3.0,
+    "memory": 9.5,
+    "spots": 7,
+    "spotted_date": "2026-05-01",
+    "date": "May 2026",
+    "gradient": "linear-gradient(135deg, #1a0000 0%, #3d0000 50%, #1a0000 100%)"
+  },
+  {
+    "id": "airwallex-sfo-2026-05",
+    "company": "Airwallex",
+    "location": "SFO Airport",
+    "lat": 37.61468,
+    "lng": -122.38454,
+    "tagline": "Control Everything. Chase Nothing.",
+    "note": "The typography is doing what the product promises \u2014 expressive, controlled, nothing wasted. 'Control Everything / Chase Nothing' in the terminal, precisely where someone is about to file a multi-currency expense report across three entities. Airwallex knows its audience by location.",
+    "category": "Fintech",
+    "tags": [
+      "Fintech",
+      "Hwy 101"
+    ],
+    "photo": "IMG_6188.jpg",
+    "pinColor": "#cc0000",
+    "buzzword": 4.5,
+    "boomer": 5.0,
+    "watry": 8.0,
+    "memory": 9.0,
+    "spots": 4,
+    "spotted_date": "2026-05-01",
+    "date": "May 2026",
+    "gradient": "linear-gradient(135deg, #1a0000 0%, #4a0000 50%, #cc0000 100%)"
+  },
+  {
+    "id": "claude-sfo-2026-05",
+    "company": "Claude",
+    "location": "SFO Airport",
+    "lat": 37.61472,
+    "lng": -122.38461,
+    "tagline": "The AI for connecting the dots.",
+    "note": "Warm lamplight, two people actually talking, a laptop open between them. The only billboard in the archive that looks like it belongs in a living room. 'Connecting the dots' is a real human thing to do \u2014 and a surprisingly grounded pitch for a category that usually leads with scale.",
+    "category": "AI",
+    "tags": [
+      "AI",
+      "Hwy 101"
+    ],
+    "photo": "IMG_6189.jpg",
+    "pinColor": "#cc785c",
+    "buzzword": 3.0,
+    "boomer": 2.0,
+    "watry": 9.0,
+    "memory": 9.0,
+    "spots": 10,
+    "spotted_date": "2026-05-01",
+    "date": "May 2026",
+    "gradient": "linear-gradient(135deg, #1a0d0a 0%, #3d1f18 50%, #2a1510 100%)"
   }
 ]
