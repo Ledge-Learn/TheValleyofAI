@@ -1,5 +1,7 @@
 // ===== MODAL =====
 let currentModalId = null;
+let _miniMap = null;
+let _miniMarker = null;
 
 function openModal(id) {
   const b = getBillboard(id);
@@ -45,10 +47,60 @@ function openModal(id) {
   // Other sightings by same company
   renderModalOther(b);
 
+  // Mini map
+  initMiniMap(b);
+
   // Open overlay
   document.getElementById('modal-overlay').classList.add('open');
   document.body.style.overflow = 'hidden';
+}
 
+function initMiniMap(b) {
+  const el = document.getElementById('modal-mini-map');
+  if (!el) return;
+
+  const hasCoords = b.lat && b.lng;
+  el.classList.toggle('hidden', !hasCoords);
+  if (!hasCoords) return;
+
+  const miniPinIcon = L.divIcon({
+    className: '',
+    html: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" viewBox="0 0 28 36">
+      <path d="M14 0C6.268 0 0 6.268 0 14c0 9.333 14 22 14 22S28 23.333 28 14C28 6.268 21.732 0 14 0z" fill="#F04E23" opacity="0.95"/>
+      <circle cx="14" cy="14" r="5" fill="#0b0f1a"/>
+      <circle cx="14" cy="14" r="2.5" fill="#F04E23"/>
+    </svg>`,
+    iconSize: [20, 26],
+    iconAnchor: [10, 26],
+  });
+
+  if (_miniMap) {
+    _miniMap.setView([b.lat, b.lng], 14);
+    if (_miniMarker) _miniMarker.setLatLng([b.lat, b.lng]);
+    setTimeout(() => _miniMap.invalidateSize(), 60);
+    return;
+  }
+
+  _miniMap = L.map('modal-mini-map', {
+    center: [b.lat, b.lng],
+    zoom: 14,
+    zoomControl: false,
+    scrollWheelZoom: false,
+    dragging: false,
+    doubleClickZoom: false,
+    boxZoom: false,
+    keyboard: false,
+    touchZoom: false,
+    attributionControl: false,
+  });
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    subdomains: 'abcd',
+    maxZoom: 20,
+  }).addTo(_miniMap);
+
+  _miniMarker = L.marker([b.lat, b.lng], { icon: miniPinIcon }).addTo(_miniMap);
+  setTimeout(() => _miniMap.invalidateSize(), 60);
 }
 
 function renderModalOther(b) {

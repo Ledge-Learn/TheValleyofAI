@@ -277,13 +277,27 @@
 }
 .modal-close:hover { color: var(--text); border-color: var(--text-muted); }
 
-.modal-image-col { position: relative; }
+.modal-image-col { display: flex; flex-direction: column; }
+
+.modal-image-wrap {
+  position: relative;
+  flex-shrink: 0;
+}
+
 .modal-image {
   width: 100%;
   aspect-ratio: 3 / 2;
   height: auto;
   overflow: hidden;
 }
+
+.modal-mini-map {
+  flex: 1;
+  min-height: 160px;
+  border-top: 1px solid var(--border);
+  pointer-events: none;
+}
+.modal-mini-map.hidden { display: none; }
 .modal-photo-img {
   width: 100%;
   height: 100%;
