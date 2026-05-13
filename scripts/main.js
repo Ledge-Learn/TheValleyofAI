@@ -177,6 +177,8 @@ document.getElementById('submit-form').addEventListener('submit', async function
   const location = document.getElementById('f-location');
   const tagline = document.getElementById('f-tagline');
   const photo = document.getElementById('f-photo');
+  const latIn = document.getElementById('f-lat');
+  const lngIn = document.getElementById('f-lng');
   const errorEl = document.getElementById('form-error');
   const btn = this.querySelector('.submit-btn');
 
@@ -195,6 +197,14 @@ document.getElementById('submit-form').addEventListener('submit', async function
     valid = false;
   } else {
     photo.closest('.file-input-wrap').style.outline = '';
+  }
+  const pinMapEl = document.getElementById('pin-map');
+  const hasPin = latIn && lngIn && latIn.value && lngIn.value;
+  if (!hasPin) {
+    if (pinMapEl) pinMapEl.style.outline = '1px solid var(--meter-neg)';
+    valid = false;
+  } else {
+    if (pinMapEl) pinMapEl.style.outline = '';
   }
   if (!valid) return;
 
@@ -238,6 +248,8 @@ function resetForm() {
   btn.textContent = 'Submit Sighting →';
   btn.disabled = false;
   document.getElementById('form-success').style.display = 'none';
+  const pinMapEl = document.getElementById('pin-map');
+  if (pinMapEl) pinMapEl.style.outline = '';
 }
 
 document.getElementById('f-photo').addEventListener('change', function () {
