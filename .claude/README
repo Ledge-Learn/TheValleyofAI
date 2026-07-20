@@ -1,0 +1,45 @@
+Claude Integration
+
+This folder contains Claude-related configuration and development files for the Valley of AI project.
+
+settings.local.json
+
+Local development configuration file that documents the Claude-assisted development workflow for this project.
+
+How Claude Was Used
+
+Claude was integrated into the development process at multiple stages:
+
+Local Development Setup — Claude helped configure local servers and development environments
+Problem-Solving — Used Claude for debugging, architecture decisions, and optimization
+Research & Data Collection — Claude assisted in researching Bay Area AI installations and organizing data
+Content Generation — Claude helped write descriptions and analyze AI trends
+Code Development — Claude provided code suggestions and architectural guidance
+Key Development Commands
+
+The settings.local.json file includes bash commands for:
+
+Python HTTP Server — Local testing environment for gallery and map views
+API Testing — curl commands for testing Netlify functions locally
+Development Tools — Server configuration for hot-reload and live testing
+Why This Matters
+
+This folder demonstrates a modern, AI-assisted development workflow where Claude was used not just for code, but for:
+
+Strategic thinking about the project
+Research and data organization
+Problem-solving and debugging
+Content and documentation
+
+Rather than building in isolation, this project leveraged Claude as a collaborative development partner, showing how AI tools can enhance the entire development lifecycle.
+
+Using Claude in Your Workflow
+
+To replicate this approach:
+
+Keep detailed notes on how Claude helped at each stage
+Save configurations and settings that show integration
+Document the thought process and problem-solving
+Version control everything so the collaboration is visible
+
+This transparency about AI tool usage is valuable for employers and shows sophistication in modern development practices.
