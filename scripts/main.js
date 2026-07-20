@@ -1,3 +1,17 @@
+
+/**
+ * Valley of AI - Main Application Logic
+ * 
+ * This module handles the core functionality:
+ * - Loading and displaying AI billboard data
+ * - Search and filter functionality
+ * - Interactive map and gallery views
+ * - User submissions for new installations
+ * 
+ * Data source: Netlify serverless functions API
+ * Built with AI assistance using Claude for research and development
+ */
+
 // ===== PROGRESS BAR =====
 (function () {
   const bar = document.getElementById('progress-bar');
