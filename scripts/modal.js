@@ -182,9 +182,9 @@ document.getElementById('modal-overlay').addEventListener('click', function (e) 
   if (e.target === this) closeModal();
 });
 
-// Close on Escape
+// Close on Escape (only if a modal is actually open)
 document.addEventListener('keydown', function (e) {
-  if (e.key === 'Escape') closeModal();
+  if (e.key === 'Escape' && currentModalId !== null) closeModal();
 });
 
 async function spotFromModal() {
